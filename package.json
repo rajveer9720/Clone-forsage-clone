@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "scripts": {
+    "start": "concurrently \"cd ForsageBackend && node src/server.js\" \"cd ForsageFronted && npx yarn dev\""
+  }
+}
