@@ -6,15 +6,14 @@ import 'slick-carousel/slick/slick-theme.css'; // Slick carousel theme styles
 const ImageCarousel: React.FC = () => {
   // Array of image URLs
   const images: string[] = [
-  
     'https://i.ibb.co/3zKT26p/Screenshot-Capture-2024-07-06-15-51-44.png',
     'https://i.ibb.co/t8cVbSF/Whats-App-Image-2024-07-06-at-15-20-06-3fa7a5ae.jpg',
   ];
 
   // Slider settings configuration
   const settings = {
-    dots: true, // Hide dots
-    arrows: false, // Hide arrows
+    dots: true,
+    arrows: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -22,8 +21,8 @@ const ImageCarousel: React.FC = () => {
     autoplay: true,
     autoplaySpeed: 3000,
     appendDots: (dots: React.ReactNode) => (
-      <div style={{ bottom: '-35px' }}>
-        <ul style={{ margin: '0px' }}>{dots}</ul>
+      <div className="absolute bottom-[-35px] w-full flex justify-center">
+        <ul className="flex space-x-2">{dots}</ul>
       </div>
     ),
     customPaging: (i: number) => (
@@ -38,12 +37,12 @@ const ImageCarousel: React.FC = () => {
   };
 
   return (
-    <div className="container mx-auto py-4 rounded-xl">
-      {/* Container with height set to 20% of viewport height */}
-      <div className="relative w-full h-2/5 rounded-xl">
+    <div className="relative m-auto my-16 w-[80%] h-[40%] max-w-full max-h-full">
+      {/* Container with responsive width and height */}
+      <div className="relative w-full h-full rounded-xl overflow-hidden">
         <Slider {...settings}>
           {images.map((image, index) => (
-            <div key={index} className="relative h-full rounded-xl">
+            <div key={index} className="relative w-full h-full rounded-xl overflow-hidden">
               <img
                 src={image}
                 alt={`Slide ${index + 1}`}

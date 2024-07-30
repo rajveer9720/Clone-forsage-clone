@@ -18,7 +18,7 @@ const PlatformRecentActivity: React.FC = () => {
     window.location.href = 'https://criptic-kzgz-git-main-somil-merugawars-projects.vercel.app/retro'; // Replace with your desired URL
   };
   return (
-    <div className="bg-gray-900 text-white p-8 rounded-md w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 h-full">
+    <div className="text-white p-8 rounded-md w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 h-full">
       <div className="col-span-2 h-full flex flex-col">
         <h2 className="text-xl font-semibold mb-4">Platform Recent Activity</h2>
         <div className="bg-gray-800 rounded-lg p-4 mb-4 flex-1 flex flex-col">

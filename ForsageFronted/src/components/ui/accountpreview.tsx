@@ -21,7 +21,7 @@ const AccountPreview: React.FC = () => {
   };
 
   return (
-    <div className=" mt-5 items-center rounded-lg  bg-gray-100  p-5  dark:bg-light-dark text-white p-8 rounded-md w-full  mx-auto">
+    <div className="  mt-5 items-center rounded-lg  bg-gray-100  p-5  dark:bg-light-dark text-white p-8 rounded-md w-5/6  mx-auto">
       <h2 className="text-xl font-semibold mb-4">Account preview</h2>
       <p className="text-gray-400 mb-6">
         Look up any Forsage BUSD member account in preview mode. Enter ID or BUSD address to preview or click Demo to view a random account.

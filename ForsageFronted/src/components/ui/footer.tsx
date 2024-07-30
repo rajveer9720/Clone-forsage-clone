@@ -4,7 +4,7 @@ import { faDiscord, faTelegram, faYoutube, faTwitter } from '@fortawesome/free-b
 
 const SupportPage = () => {
   return (
-    <div className="flex flex-col justify-center items-center bg-grey-900 text-white p-8 relative ">
+    <div className="w-5/6 m-auto flex flex-col justify-center items-center bg-grey-900 text-white p-8 relative ">
       <div className="bg-blue-900 rounded-lg mt-10 p-4 mb-8 text-center w-full">
         <h2 className="text-2xl font-bold mb-2">Official Notify Bot for busd.forsage.io users</h2>
         <p className="text-sm">Here you can get notifications about all the events in your account.</p>

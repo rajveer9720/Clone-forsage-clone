@@ -60,9 +60,9 @@ const Roadmap = () => {
   };
 
   return (
-    <div className="bg-gray-900 text-white p-8 rounded-lg">
-      <h1 className="text-2xl font-bold mb-4">Roadmap</h1>
-      <div className="grid grid-cols-3 gap-4">
+    <div className="w-5/6 m-auto my-6 text-white p-8 rounded-lg">
+      <h1 className="text-2xl font-bold mb-4 my-4">Roadmap</h1>
+      <div className="grid grid-cols-3 gap-12 ">
         {roadmapItems.map((item, index) => (
           <div
             key={index}

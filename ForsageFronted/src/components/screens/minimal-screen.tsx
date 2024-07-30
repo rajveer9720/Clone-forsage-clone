@@ -47,18 +47,30 @@ export default function MinimalScreen() {
   return (
     <>
       <div className="">
-      <div className="relative w-full h-40 bg-cover bg-center rounded-xl bg-blue-500">
+      <div className="relative w-5/6  mx-auto h-60 bg-cover bg-center rounded-xl bg-blue-500">
       {/* Optional overlay */}
       <div className="absolute inset-0 bg-black opacity-50 rounded-xl"></div>
 
       {/* Content inside the banner */}
-      <div className="absolute inset-0 flex items-center justify-between p-8 rounded-xl bg-blue-500">
-        <div className="text-white text-left">
-          <h1 className="text-2xl lg:text-3xl font-bold mb-4">Your Banner Title</h1>
-          <p className="text-lg lg:text-1xl mb-4">Your banner subtitle or call to action</p>
-          <div className="space-x-4">
-            <button className="bg-black hover:bg-black-700 text-white py-1 px-2 rounded" onClick={handleRegisterBUSD} >Go TO Dashboard</button>
-            <button className="bg-grey-500 hover:bg-grey-700 text-white py-1 px-2 rounded">Watch Tutorial</button>
+      <div className="absolute inset-0 flex flex-col md:flex-row items-center justify-between p-4 md:p-8 rounded-xl bg-blue-500">
+        <div className="text-white text-center md:text-left">
+          <h1 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4">Your Banner Title</h1>
+          <p className="text-base md:text-lg lg:text-xl mb-4">Your banner subtitle or call to action</p>
+          <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
+            {/* Apply 'flex-row' only on mobile screens */}
+            <div className="flex flex-row space-x-2 md:space-x-4">
+              <button
+                className="bg-black hover:bg-gray-800 text-white py-2 px-4 rounded"
+                onClick={handleRegisterBUSD}
+              >
+                Go To Dashboard
+              </button>
+              <button
+                className="bg-gray-500 hover:bg-gray-700 text-white py-2 px-4 rounded"
+              >
+                Watch Tutorial
+              </button>
+            </div>
           </div>
         </div>
       </div>
