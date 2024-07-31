@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 
+import Image from '@/components/ui/image';
+
+import SocialBg from '@/assets/images/socialbg.jpg';
+
 const faqData = [
   {
     question: 'Why is Forsage the best alternative for trading?',
@@ -50,7 +54,7 @@ const FAQSection: React.FC = () => {
       {/* FAQ Section */}
       <section className="w-full max-w-5xl flex flex-col items-center text-center space-y-8">
         <h1 className="text-3xl font-bold">
-          Frequently asked Questions
+          Frequently Asked Questions
         </h1>
         <div className="w-full space-y-4">
           {faqData.map((faq, index) => (
@@ -73,27 +77,36 @@ const FAQSection: React.FC = () => {
       </section>
 
       {/* Official Channels Section */}
-      <section className="w-full max-w-5xl flex flex-col items-center text-center mt-16 space-y-8">
-        <h1 className="text-3xl font-bold mb-4">
-          Official channels
-        </h1>
-        <div className="flex flex-wrap justify-center gap-4">
-          {socialLinks.map((link, index) => (
-            <a
-              key={index}
-              href={link.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center space-x-2 p-4 bg-gray-800 rounded-full hover:bg-gray-700 transition"
-            >
-              <span className="text-2xl">{link.icon}</span>
-              <span>{link.name}</span>
-            </a>
-          ))}
+      <section
+        className="w-full flex flex-col items-center text-center mt-16 space-y-8"
+        style={{
+          backgroundImage: `url(${SocialBg.src})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          height: '30vh',
+          backgroundRepeat: 'no-repeat',
+        }}
+      >
+        <div className="w-full flex flex-col items-center py-8">
+          <h1 className="text-3xl font-bold mb-4">
+            Official Channels
+          </h1>
+          <div className="flex flex-wrap justify-center gap-4">
+            {socialLinks.map((link, index) => (
+              <a
+                key={index}
+                href={link.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center space-x-2 p-4 bg-gray-800 rounded-full hover:bg-gray-700 transition"
+              >
+                <span className="text-2xl">{link.icon}</span>
+                <span>{link.name}</span>
+              </a>
+            ))}
+          </div>
         </div>
       </section>
-
-   
     </div>
   );
 };

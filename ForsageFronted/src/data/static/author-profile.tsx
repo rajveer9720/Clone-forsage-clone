@@ -92,7 +92,7 @@ import User2 from '@/assets/images/user-2.png';
 export const transactionHistory = [
   {
     id: 1,
-    name: 'Spy Thirtythree',
+    name: 'Spy Thirtythrees',
     avatar: User2,
     date: 'February 7, 2022',
     time: '10:13 AM',

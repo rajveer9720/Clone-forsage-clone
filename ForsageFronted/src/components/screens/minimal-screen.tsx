@@ -16,6 +16,11 @@ import Roadmap from '@/components/ui/roadmap';
 import SupportPage from '@/components/ui/footer';
 import AccountPreview from '@/components/ui/accountpreview';
 import PlatformRecentActivity from '@/components/ui/platformrecentactivity';
+
+
+import Image from '@/components/ui/image';
+
+import BusdBanner from '@/assets/images/BannerBUSD.png';
 //images
 import AuthorImage from '@/assets/images/author.jpg';
 
@@ -47,12 +52,18 @@ export default function MinimalScreen() {
   return (
     <>
       <div className="">
-      <div className="relative w-5/6  mx-auto h-60 bg-cover bg-center rounded-xl bg-blue-500">
+      <div className="relative w-5/6  mx-auto h-60 bg-cover bg-center rounded-xl"    style={{
+          backgroundImage: `url(${BusdBanner.src})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          height: '30vh',
+          backgroundRepeat: 'no-repeat',
+        }}>
       {/* Optional overlay */}
       <div className="absolute inset-0 bg-black opacity-50 rounded-xl"></div>
 
       {/* Content inside the banner */}
-      <div className="absolute inset-0 flex flex-col md:flex-row items-center justify-between p-4 md:p-8 rounded-xl bg-blue-500">
+      <div className="absolute inset-0 flex flex-col md:flex-row items-center justify-between p-4 md:p-8 rounded-xl bg-blue-500" >
         <div className="text-white text-center md:text-left">
           <h1 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4">Your Banner Title</h1>
           <p className="text-base md:text-lg lg:text-xl mb-4">Your banner subtitle or call to action</p>

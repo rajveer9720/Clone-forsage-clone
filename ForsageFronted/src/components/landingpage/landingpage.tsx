@@ -30,9 +30,12 @@ export default function LandingPage() {
         <Header onRegistrationClick={handleRegistrationClick} />
         {isRegistrationOpen && <RegistrationSection onClose={handleCloseRegistration} />}
         <HeroSection />
-        <InfoCardsSection />
+      
         <ActivitySection />
+     
         <TechnologySection />
+
+        <InfoCardsSection />
         <FAQSection />
         <Footer />
         {/* <SmartContractInfo /> */}

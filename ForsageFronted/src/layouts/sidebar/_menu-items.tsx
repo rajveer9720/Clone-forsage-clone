@@ -16,7 +16,7 @@ export const defaultMenuItems = [
   {
     name: 'Home',
     icon: <HomeIcon />,
-    href: routes.minimal,
+    href: routes.profile,
   },
   {
     name: 'Team',
@@ -129,11 +129,11 @@ export const defaultMenuItems = [
   //   icon: <PoolIcon />,
   //   href: routes.liquidity,
   // },
-  {
-    name: 'Profile',
-    icon: <ProfileIcon />,
-    href: routes.profile,
-  },
+  // {
+  //   name: 'Profile',
+  //   icon: <ProfileIcon />,
+  //   href: routes.profile,
+  // },
   // {
   //   name: 'Vote',
   //   icon: <VoteIcon />,

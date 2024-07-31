@@ -1,8 +1,17 @@
 import { useState } from "react";
 
+// Import local images
+import social from '@/assets/images/social media lobver.png';
+import achievements from '@/assets/images/achivments.png';
+import cyoleRallyMarathon from '@/assets/images/cycle rally marthon.png';
+import forsageGames from '@/assets/images/Ronx game.png';
+import customInvitePdf from '@/assets/images/costum invite pager.png';
+import newProgram from '@/assets/images/New program.png';
+import token from '@/assets/images/Tokan.png';
+import Image from '@/components/ui/image';
 interface RoadmapItem {
   title: string;
-  icon: string; // Update the type to string for URL
+  icon: string; // This can now be a URL or a local path
   date: string;
   completed: boolean;
 }
@@ -10,43 +19,43 @@ interface RoadmapItem {
 const roadmapItems: RoadmapItem[] = [
   {
     title: "Social",
-    icon: "https://busd.forsage.io/roadmap/social.png",
+    icon: social, // Local image import
     date: "21.08",
     completed: true,
   },
   {
     title: "Achievements",
-    icon: "https://busd.forsage.io/roadmap/achievements.png",
+    icon: achievements,
     date: "28.08",
     completed: true,
   },
   {
     title: "Cyole Rally Marathon",
-    icon: "https://busd.forsage.io/roadmap/bigRefferal%D0%A1ontest.png",
+    icon: cyoleRallyMarathon,
     date: "4.09",
     completed: true,
   },
   {
     title: "Forsage Games",
-    icon: "https://busd.forsage.io/roadmap/games.png",
+    icon: forsageGames,
     date: "21.11",
     completed: true,
   },
   {
     title: "Custom Invite page",
-    icon: "https://busd.forsage.io/roadmap/customInvitePdf.png",
+    icon: customInvitePdf,
     date: "12.10",
     completed: true,
   },
   {
     title: "New program",
-    icon: "https://busd.forsage.io/roadmap/maxqore.png",
+    icon: newProgram,
     date: "3.10",
     completed: true,
   },
   {
     title: "Token",
-    icon: "https://busd.forsage.io/roadmap/token.png",
+    icon: token,
     date: "20.12 2023",
     completed: false,
   },
@@ -62,7 +71,7 @@ const Roadmap = () => {
   return (
     <div className="w-5/6 m-auto my-6 text-white p-8 rounded-lg">
       <h1 className="text-2xl font-bold mb-4 my-4">Roadmap</h1>
-      <div className="grid grid-cols-3 gap-12 ">
+      <div className="grid grid-cols-3 gap-12">
         {roadmapItems.map((item, index) => (
           <div
             key={index}
@@ -71,7 +80,7 @@ const Roadmap = () => {
             }`}
           >
             <div className="flex flex-col items-center">
-              <img src={item.icon} alt={`${item.title} icon`} width="24" height="24" />
+              <Image src={item.icon} alt={`${item.title} icon`} width="24" height="24" />
               <h2 className="text-lg font-bold mt-2">{item.title}</h2>
             </div>
             <div className="flex flex-col items-center">
@@ -92,7 +101,7 @@ const Roadmap = () => {
               ) : (
                 <button
                   onClick={() => handleComplete(item)}
-                  className=" hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                  className="hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                 >
                   Mark as Complete
                 </button>

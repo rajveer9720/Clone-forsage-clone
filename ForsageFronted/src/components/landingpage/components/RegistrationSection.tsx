@@ -1,5 +1,8 @@
 import React from 'react';
 
+import Image from '@/components/ui/image';
+
+import darkLogo from '@/assets/images/logo-white.svg';
 interface RegistrationSectionProps {
   onClose: () => void;
 }
@@ -27,7 +30,7 @@ const RegistrationSection: React.FC<RegistrationSectionProps> = ({ onClose }) =>
         <h2 className="text-2xl font-bold mb-4">Register</h2>
         <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
           <div className="bg-gray-800 text-white p-6 rounded-lg text-center">
-            <img src="busd.png" alt="Busd" className="h-12 mx-auto mb-4" />
+          <Image src={darkLogo} alt="Criptic" height={45} priority />
             <h3 className="text-xl font-bold mb-4">Busd</h3>
             <p>Advantages:</p>
             <ul className="mb-4 text-left">

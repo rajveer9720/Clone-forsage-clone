@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 
+import Image from '@/components/ui/image';
+
+import darkLogo from '@/assets/images/logo-white.svg';
 interface HeaderProps {
   onRegistrationClick: () => void;
 }
@@ -14,7 +17,7 @@ const Header: React.FC<HeaderProps> = ({ onRegistrationClick }) => {
   return (
     <header className="bg-black text-white p-4 flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0">
       <div className="flex justify-between items-center w-full lg:w-auto">
-        <img src="logo.png" alt="Logo" className="h-8" />
+      <Image src={darkLogo} alt="Criptic" height={45} priority />
         <button className="text-white lg:hidden" onClick={toggleMenu}>
           <svg
             className="w-6 h-6"
