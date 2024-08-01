@@ -4,11 +4,11 @@ import BannerForth from '@/assets/images/BannerForth.png';
 import Laptop from '@/assets/images/laptop.png';
 const InfoCardsSection: React.FC = () => {
   return (
-    <section className=" mb-32 bg-gradient-to-r from-green-400 via-purple-500 to-blue-500 text-white p-16"    style={{
+    <section className="  bg-gradient-to-r from-green-400 via-purple-500 to-blue-500 text-white p-16"    style={{
       backgroundImage: `url(${BannerForth.src})`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
-      height: '100vh',
+      height: '60vh',
     }}>
       <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-1 gap-8">
         <div className=" rounded-lg shadow-lg">

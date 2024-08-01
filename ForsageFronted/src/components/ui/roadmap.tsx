@@ -9,6 +9,7 @@ import customInvitePdf from '@/assets/images/costum invite pager.png';
 import newProgram from '@/assets/images/New program.png';
 import token from '@/assets/images/Tokan.png';
 import Image from '@/components/ui/image';
+
 interface RoadmapItem {
   title: string;
   icon: string; // This can now be a URL or a local path
@@ -61,7 +62,7 @@ const roadmapItems: RoadmapItem[] = [
   },
 ];
 
-const Roadmap = () => {
+const Roadmap: React.FC = () => {
   const [completedItems, setCompletedItems] = useState<RoadmapItem[]>([]);
 
   const handleComplete = (item: RoadmapItem) => {
@@ -69,9 +70,9 @@ const Roadmap = () => {
   };
 
   return (
-    <div className="w-5/6 m-auto my-6 text-white p-8 rounded-lg">
-      <h1 className="text-2xl font-bold mb-4 my-4">Roadmap</h1>
-      <div className="grid grid-cols-3 gap-12">
+    <div className="w-5/6 m-auto my-6 text-white p-4 md:p-8 rounded-lg">
+      <h1 className="text-xl md:text-2xl font-bold mb-4 my-4">Roadmap</h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-8">
         {roadmapItems.map((item, index) => (
           <div
             key={index}
