@@ -61,7 +61,7 @@ const PlatformRecentActivity: React.FC = () => {
           <p className="text-1xl font-bold">22,632.2012 BNB <span className="text-green-500">+1.6728 BNB</span></p>
         </div> */}
         <div className="bg-gray-800 rounded-lg p-4 mb-4 flex-1">
-          <h3 className="text-lg font-semibold mb-2 ">Forsage BUSD Contracts</h3>
+          <h3 className="text-lg font-semibold mb-2 ">RonX BUSD Contracts</h3>
           <p className="text-sm flex mt-3 items-center rounded-lg  bg-gray-100 p-2  dark:bg-light-dark justify-between mb-1">x3/x4: <span className="text-blue-500">0x5ac...b97</span></p>
           {/* <p className="text-sm flex mt-3 items-center rounded-lg  bg-gray-100 p-2  dark:bg-light-dark justify-between mb-1">xXx: <span className="text-blue-500">0x2ca...c52</span></p>
           <p className="text-sm flex mt-3 items-center rounded-lg  bg-gray-100 p-2  dark:bg-light-dark justify-between mb-1">xGold: <span className="text-blue-500">0x9e8...705</span></p>

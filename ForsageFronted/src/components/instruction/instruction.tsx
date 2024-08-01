@@ -45,12 +45,12 @@ const Instruction: React.FC = () => {
                 <b className="inline text-white font-medium notranslate mr-1.5">BUSD</b> is a cryptocurrency with a fixed exchange rate that is equal to $1. It has a fully verified code and is approved by the New York State Department of Financial Services.
               </div>
               <div>
-                5 benefits of <span className="notranslate mr-1.5">BUSD</span> for <span className="notranslate mx-1.5">Forsage</span>:
+                5 benefits of <span className="notranslate mr-1.5">BUSD</span> for <span className="notranslate mx-1.5">RonX</span>:
               </div>
               <ul className="space-y-2.5">
                 <li className="flex">
                   <span>
-                    <b className="inline text-white font-medium">1. Fixed Cost.</b> Your Forsage performance is no longer affected by rate fluctuations and market corrections.
+                    <b className="inline text-white font-medium">1. Fixed Cost.</b> Your RonX performance is no longer affected by rate fluctuations and market corrections.
                   </span>
                 </li>
                 <li className="flex">
@@ -82,7 +82,7 @@ const Instruction: React.FC = () => {
       <div className='flex mt-5 items-center rounded-lg  bg-gray-100  p-5  dark:bg-light-dark'>
         <div className="flex flex-col rounded-lg bg-black-light text-base w-full p-7.5 sm:text-sm sm:p-5">
           <span className="text-2xl text-white font-medium mb-5 sm:text-xl">
-            <span className="notranslate mr-1.5">Forsage</span> marketing
+            <span className="notranslate mr-1.5">RonX</span> marketing
           </span>
           <div className="flex">
             <div className="flex mt-5 items-center sm:items-start flex-col">
@@ -92,12 +92,12 @@ const Instruction: React.FC = () => {
                 frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
-                title="Forsage Marketing Video"
+                title="RonX Marketing Video"
               ></iframe>
               <div className="mt-5 space-y-2.5">
                 <span>
                   <b className="inline text-white font-medium">
-                    <span className="notranslate mr-1.5">Forsage</span> marketing
+                    <span className="notranslate mr-1.5">RonX</span> marketing
                   </b> is implemented on the Smart Chain blockchain smart contract technology. The marketing employs the BUSD token in the BEP-20 format with a stable exchange rate of 1 USD. To send
                   <span className="notranslate mx-1.5">BUSD</span> or any other token functioning in the Smart Chain blockchain, you will need a certain amount of
                   <span className="notranslate mx-1.5">BNB</span> to pay the fee.
@@ -143,13 +143,13 @@ const Instruction: React.FC = () => {
 
         <div className="flex flex-col rounded bg-black-light text-base w-full p-7.5 sm:text-sm sm:p-5">
           <span className="text-2xl text-white font-medium mb-5 sm:text-xl">
-            <span className="notranslate mr-1.5">Forsage</span> marketing
+            <span className="notranslate mr-1.5">RonX</span> marketing
           </span>
           <div className="flex">
             <div className="space-y-2.5">
               <span className="mb-2.5">
                 <b className="inline text-white font-medium">
-                  <span className="notranslate mr-1.5">Forsage</span> marketing
+                  <span className="notranslate mr-1.5">RonX</span> marketing
                 </b> is a matrix system based on decentralized smart contract technology. Profits come from inviting new partners to your team, who once registered stay with you forever since it is recorded in blockchain. The income is distributed automatically and instantly to the personal wallets of the participants.
               </span>
               <span>
@@ -218,11 +218,11 @@ const Instruction: React.FC = () => {
           <span className="text-2xl text-white font-medium mb-5 sm:text-xl">Registration</span>
           <div className="flex">
             <div className="flex items-center sm:items-start flex-col">
-              <img src="https://busd.forsage.io/instructions/registrationPrev.png" className="flex-shrink-0 max-h-[350px] mb-2.5 item-center" alt="Registration Preview" />
+              <img src="https://busd.RonX.io/instructions/registrationPrev.png" className="flex-shrink-0 max-h-[350px] mb-2.5 item-center" alt="Registration Preview" />
               <div className="flex-col space-y-2.5 sm:order-2">
                 <div>
                   <b className="inline text-white font-medium">Smart Contract.</b>
-                  <span className="notranslate mr-1.5">Forsage</span> platform is based on smart contract technology. Forsage smart contracts are programmed in such a way, that they never store participants' funds, their balance is always zero. The purpose of the smart contract is to automatically redirect funds from incoming transactions to the wallets of other participants, according to marketing program rules.
+                  <span className="notranslate mr-1.5">RonX</span> platform is based on smart contract technology. RonX smart contracts are programmed in such a way, that they never store participants' funds, their balance is always zero. The purpose of the smart contract is to automatically redirect funds from incoming transactions to the wallets of other participants, according to marketing program rules.
                 </div>
                 <div>
                   <b className="inline text-white font-medium">Referral linking.</b>
@@ -247,11 +247,11 @@ const Instruction: React.FC = () => {
           <span className="text-2xl text-white font-medium mb-5 sm:text-xl">Registration</span>
           <div className="flex">
             <div className="flex items-center sm:items-start flex-col">
-              <img src="https://busd.forsage.io/instructions/registrationPrev.png" className="flex-shrink-0 max-h-[350px] mb-2.5 item-center" alt="Registration Preview" />
+              <img src="https://busd.RonX.io/instructions/registrationPrev.png" className="flex-shrink-0 max-h-[350px] mb-2.5 item-center" alt="Registration Preview" />
               <div className="flex-col space-y-2.5 sm:order-2">
                 <div>
                   <b className="inline text-white font-medium">Smart Contract.</b>
-                  <span className="notranslate mr-1.5">Forsage</span> platform is based on smart contract technology. Forsage smart contracts are programmed in such a way, that they never store participants' funds, their balance is always zero. The purpose of the smart contract is to automatically redirect funds from incoming transactions to the wallets of other participants, according to marketing program rules.
+                  <span className="notranslate mr-1.5">RonX</span> platform is based on smart contract technology. RonX smart contracts are programmed in such a way, that they never store participants' funds, their balance is always zero. The purpose of the smart contract is to automatically redirect funds from incoming transactions to the wallets of other participants, according to marketing program rules.
                 </div>
                 <div>
                   <b className="inline text-white font-medium">Referral linking.</b>
@@ -277,10 +277,10 @@ const Instruction: React.FC = () => {
           <span className="text-2xl text-white font-medium mb-5 sm:text-xl">Registration</span>
           <div className="flex">
             <div className="flex items-center sm:items-start flex-col">
-              <img src="https://busd.forsage.io/instructions/registrationPrev.png" className="flex-shrink-0 max-h-[350px] mb-2.5 item-center" alt="Registration Preview" />
+              <img src="https://busd.RonX.io/instructions/registrationPrev.png" className="flex-shrink-0 max-h-[350px] mb-2.5 item-center" alt="Registration Preview" />
               <div className="flex-col sm:order-2 space-y-2.5">
                 <div>
-                  <b className="inline text-white font-medium">Registration in <span className="notranslate ml-1.5">Forsage BUSD</span></b> is the activation of first levels in <span className="notranslate mx-1.5">Forsage x3</span> and <span className="notranslate mx-1.5">x4</span> programs, which cost 5 <span className="notranslate mx-1.5">BUSD</span> each. In total, registration costs 10 <span className="notranslate mx-1.5">BUSD</span>. The first levels in x3 and x4 programs are always activated together and cannot be accessed separately. All the following levels can be purchased one by one, in ascending order.
+                  <b className="inline text-white font-medium">Registration in <span className="notranslate ml-1.5">RonX BUSD</span></b> is the activation of first levels in <span className="notranslate mx-1.5">RonX x3</span> and <span className="notranslate mx-1.5">x4</span> programs, which cost 5 <span className="notranslate mx-1.5">BUSD</span> each. In total, registration costs 10 <span className="notranslate mx-1.5">BUSD</span>. The first levels in x3 and x4 programs are always activated together and cannot be accessed separately. All the following levels can be purchased one by one, in ascending order.
                 </div>
                 <div>
                   Registration transaction is credited to the smart contract. The smart contract records your wallet number into the structure and redirects the funds to the personal wallet of the person that invited you (your upline partner). You occupy a free spot in their first level of x3 program and the first level of x4 program. Level 1 of x3 and Level 1 of x4 are respectively opened for you, and now you can invite partners through your personal referral link.
@@ -296,14 +296,14 @@ const Instruction: React.FC = () => {
       </div>
       <div className='flex mt-5 items-center rounded-lg  bg-gray-100  p-5  dark:bg-light-dark'>
         <div className="flex flex-col rounded bg-black-light text-base w-full p-7.5 sm:text-sm sm:p-5">
-          <span className="text-2xl text-white font-medium mb-5 sm:text-xl">How Forsage x3 works
+          <span className="text-2xl text-white font-medium mb-5 sm:text-xl">How RonX x3 works
           </span>
           <div className="flex">
             <div className="flex items-center sm:items-start flex-col">
-              <img src="https://busd.forsage.io/instructions/registrationPrev.png" className="flex-shrink-0 max-h-[350px] mb-2.5 item-center" alt="Registration Preview" />
+              <img src="https://busd.RonX.io/instructions/registrationPrev.png" className="flex-shrink-0 max-h-[350px] mb-2.5 item-center" alt="Registration Preview" />
               <div className="flex-col sm:order-2 space-y-2.5">
                 <div>
-                  <b className="inline text-white font-medium">Registration in <span className="notranslate ml-1.5">Forsage BUSD</span></b> is the activation of first levels in <span className="notranslate mx-1.5">Forsage x3</span> and <span className="notranslate mx-1.5">x4</span> programs, which cost 5 <span className="notranslate mx-1.5">BUSD</span> each. In total, registration costs 10 <span className="notranslate mx-1.5">BUSD</span>. The first levels in x3 and x4 programs are always activated together and cannot be accessed separately. All the following levels can be purchased one by one, in ascending order.
+                  <b className="inline text-white font-medium">Registration in <span className="notranslate ml-1.5">RonX BUSD</span></b> is the activation of first levels in <span className="notranslate mx-1.5">RonX x3</span> and <span className="notranslate mx-1.5">x4</span> programs, which cost 5 <span className="notranslate mx-1.5">BUSD</span> each. In total, registration costs 10 <span className="notranslate mx-1.5">BUSD</span>. The first levels in x3 and x4 programs are always activated together and cannot be accessed separately. All the following levels can be purchased one by one, in ascending order.
                 </div>
                 <div>
                   Registration transaction is credited to the smart contract. The smart contract records your wallet number into the structure and redirects the funds to the personal wallet of the person that invited you (your upline partner). You occupy a free spot in their first level of x3 program and the first level of x4 program. Level 1 of x3 and Level 1 of x4 are respectively opened for you, and now you can invite partners through your personal referral link.
@@ -321,13 +321,13 @@ const Instruction: React.FC = () => {
 
       <div className='flex mt-5 items-center rounded-lg  bg-gray-100  p-5  dark:bg-light-dark'>
         <div className="flex flex-col rounded bg-black-light text-base w-full p-7.5 sm:text-sm sm:p-5">
-          <span className="text-2xl text-white font-medium mb-5 sm:text-xl">How Forsage x3 works</span>
+          <span className="text-2xl text-white font-medium mb-5 sm:text-xl">How RonX x3 works</span>
           <div className="flex ">
             <div className="space-y-2.5">
               <div className="flex justify-evenly items-center space-x-5 mb-5 sm:space-y-2.5 sm:space-x-0 sm:flex-col">
 
               </div>
-              <div className="mb-2.5">All partners in your <b className="inline text-white font-medium notranslate mx-1.5">Forsage X3</b> program levels are the people whom you’ve personally invited. When partners register in the program using your referral link, they take spots below you.</div>
+              <div className="mb-2.5">All partners in your <b className="inline text-white font-medium notranslate mx-1.5">RonX X3</b> program levels are the people whom you’ve personally invited. When partners register in the program using your referral link, they take spots below you.</div>
               <div>Distribution of rewards when filling each spot in a level of the program is as follows:</div>
             </div>
           </div>
@@ -355,14 +355,14 @@ const Instruction: React.FC = () => {
       <div className='flex mt-5 items-center rounded-lg  bg-gray-100  p-5  dark:bg-light-dark'>
 
         <div className="flex flex-col rounded bg-black-light text-base w-full p-7.5 sm:text-sm sm:p-5">
-          <span className="text-2xl text-white font-medium mb-5 sm:text-xl">How Forsage x4 works</span>
+          <span className="text-2xl text-white font-medium mb-5 sm:text-xl">How RonX x4 works</span>
           <div className="flex">
             <div className="space-y-2.5">
               <div className="flex justify-evenly items-center space-x-5 mb-5 sm:space-y-2.5 sm:space-x-0 sm:flex-col">
 
               </div>
               <div className="">
-                In <b className="inline text-white font-medium notranslate mx-1.5">Forsage x4</b> program you can invite personal partners, as well as receive spillovers from above and below.
+                In <b className="inline text-white font-medium notranslate mx-1.5">RonX x4</b> program you can invite personal partners, as well as receive spillovers from above and below.
               </div>
               <ul className="space-y-2.5">
 
@@ -393,7 +393,7 @@ const Instruction: React.FC = () => {
 
       <div className='flex mt-5 items-center rounded-lg  bg-gray-100  p-5  dark:bg-light-dark'>
         <div className="flex flex-col rounded bg-black-light text-base w-full p-7.5 sm:text-sm sm:p-5">
-          <span className="text-2xl text-white font-medium mb-5 sm:text-xl">How Forsage xXx works</span>
+          <span className="text-2xl text-white font-medium mb-5 sm:text-xl">How RonX xXx works</span>
           <div className="flex ">
             <div className="space-y-2.5">
               {/* SVG and other elements */}
@@ -424,7 +424,7 @@ const Instruction: React.FC = () => {
       <div className='flex mt-5 items-center rounded-lg  bg-gray-100  p-5  dark:bg-light-dark'>
 
         <div className="flex flex-col rounded bg-black-light text-base w-full p-7.5 sm:text-sm sm:p-5">
-          <span className="text-2xl text-white font-medium mb-5 sm:text-xl">How Forsage xGold works</span>
+          <span className="text-2xl text-white font-medium mb-5 sm:text-xl">How RonX xGold works</span>
           <div className="flex ">
             <div className="space-y-2.5">
               <div className="flex justify-evenly items-center space-x-5 mb-5 sm:space-y-2.5 sm:space-x-0 sm:flex-col">

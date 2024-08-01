@@ -18,7 +18,7 @@ const SmartContractInfo: React.FC = () => (
       <h1 className="text-3xl font-bold text-center mb-6">Technology of smart contracts and non-fungible tokens</h1>
       <p className="text-center mb-12">
         Decentralized marketing is powered by the revolutionary technology of smart contracts and NFTs.
-        The Forsage smart contract code is completely open. You can be sure of its safety and long-term performance.
+        The RonX smart contract code is completely open. You can be sure of its safety and long-term performance.
       </p>
       <div className="display-flex">
       <div className="flex flex-col md:flex-row gap-6">
@@ -30,7 +30,7 @@ const SmartContractInfo: React.FC = () => (
           </div>
           <h2 className="mt-4 text-lg font-semibold">Autonomy</h2>
           <p className="mt-2">
-            The Forsage autonomous system ensures the technology will work forever and with full autonomy, continuous and stable. No influence of the human factor.
+            The RonX autonomous system ensures the technology will work forever and with full autonomy, continuous and stable. No influence of the human factor.
           </p>
         </div>
         </div>

@@ -89,10 +89,10 @@ export default function Links() {
             <h3 className="text-lg font-bold mb-2">Personal link</h3>
             <div className="flex items-center">
               <a
-                href="forsage.lo/b/yke8rv"
+                href="RonX.lo/b/yke8rv"
                 className="text-blue-500 hover:underline"
               >
-                forsage.lo/b/yke8rv
+                RonX.lo/b/yke8rv
               </a>
               <button className="ml-auto bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded">
                 Copy
@@ -103,10 +103,10 @@ export default function Links() {
             <h3 className="text-lg font-bold mb-2">Personal link MaxQore</h3>
             <div className="flex items-center">
               <a
-                href="forsage.lo/mq/yke8rv"
+                href="RonX.lo/mq/yke8rv"
                 className="text-blue-500 hover:underline"
               >
-                forsage.lo/mq/yke8rv
+                RonX.lo/mq/yke8rv
               </a>
               <button className="ml-auto bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded">
                 Copy
@@ -117,10 +117,10 @@ export default function Links() {
             <h3 className="text-lg font-bold mb-2">Personal link xQore</h3>
             <div className="flex items-center">
               <a
-                href="forsage.lo/q/yke8rv"
+                href="RonX.lo/q/yke8rv"
                 className="text-blue-500 hover:underline"
               >
-                forsage.lo/q/yke8rv
+                RonX.lo/q/yke8rv
               </a>
               <button className="ml-auto bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded">
                 Copy

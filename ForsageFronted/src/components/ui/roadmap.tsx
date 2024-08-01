@@ -4,7 +4,7 @@ import { useState } from "react";
 import social from '@/assets/images/social media lobver.png';
 import achievements from '@/assets/images/achivments.png';
 import cyoleRallyMarathon from '@/assets/images/cycle rally marthon.png';
-import forsageGames from '@/assets/images/Ronx game.png';
+import RonXGames from '@/assets/images/Ronx game.png';
 import customInvitePdf from '@/assets/images/costum invite pager.png';
 import newProgram from '@/assets/images/New program.png';
 import token from '@/assets/images/Tokan.png';
@@ -37,8 +37,8 @@ const roadmapItems: RoadmapItem[] = [
     completed: true,
   },
   {
-    title: "Forsage Games",
-    icon: forsageGames,
+    title: "RonX Games",
+    icon: RonXGames,
     date: "21.11",
     completed: true,
   },

@@ -44,7 +44,7 @@ const TechnologySection: React.FC = () => {
       <div className="text-center mb-8">
         <h1 className="text-3xl font-bold">Technology of Smart Contracts and Non-Fungible Tokens</h1>
         <p className="mt-4 w-6/12 m-auto text-lg">
-          Decentralized marketing is powered by the revolutionary technology of smart contracts and NFTs. The Forsage smart contract code is completely open. You can be sure of its safety and long-term performance.
+          Decentralized marketing is powered by the revolutionary technology of smart contracts and NFTs. The RonX smart contract code is completely open. You can be sure of its safety and long-term performance.
         </p>
       </div>
       <div className="max-w-4xl w-full grid grid-cols-1 md:grid-cols-3 gap-4">

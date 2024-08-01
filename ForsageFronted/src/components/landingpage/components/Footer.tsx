@@ -12,16 +12,16 @@ const Footer: React.FC = () => {
                         <p className="text-sm">The world's first 100% decentralized matrix platform</p>
                     </div>
                     <div className="flex grid-cols-1 md:grid-cols-2 gap-4 md:gap-1 text-sm">
-                        <div className="grid grid-cols-1 gap-2 border border-gray-700 p-2 rounded">
+                        {/* <div className="grid grid-cols-1 gap-2 border border-gray-700 p-2 rounded"> */}
                             {/* <p className="bg-gray-800 p-1 rounded">x3 / x4 eth</p>
                             <p className="bg-gray-800 p-1 rounded">0x5acc...FB97</p>
                             <p className="bg-gray-800 p-1 rounded">xGold eth</p>
                             <p className="bg-gray-800 p-1 rounded">0x488e...b6C2</p> */}
-                            <p className="bg-gray-800 p-1 rounded">x3 / x4 tron</p>
+                            {/* <p className="bg-gray-800 p-1 rounded">x3 / x4 tron</p> */}
                             {/* <p className="bg-gray-800 p-1 rounded">TREbha...</p>
                             <p className="bg-gray-800 p-1 rounded">xGold tron</p>
                             <p className="bg-gray-800 p-1 rounded">TA6p1B...</p> */}
-                        </div>
+                        {/* </div> */}
                         <div className="grid grid-cols-1 gap-2 border border-gray-700 p-2 rounded">
                             <p className="bg-gray-800 p-1 rounded">x3 / x4 busd</p>
                             {/* <p className="bg-gray-800 p-1 rounded">0x5acc...FB97</p>
@@ -36,12 +36,12 @@ const Footer: React.FC = () => {
                     <div className="bg-gray-800 p-4 rounded-lg max-w-md mt-4 md:mt-0">
                         <div className="flex grid-cols-1 md:grid-cols-2 gap-4">
                             <div className="flex flex-col space-y-1">
-                                <p className="bg-gray-700 p-2 rounded shadow">Forsage BUSD</p>
-                                {/* <p className="bg-gray-700 p-2 rounded shadow">Forsage TRX</p> */}
+                                <p className="bg-gray-700 p-2 rounded shadow">RonX BUSD</p>
+                                {/* <p className="bg-gray-700 p-2 rounded shadow">RonX TRX</p> */}
                             {/* </div>
                             <div className="flex flex-col space-y-1">
-                                <p className="bg-gray-700 p-2 rounded shadow">Forsage ETHERIUM</p>
-                                <p className="bg-gray-700 p-2 rounded shadow">Forsage Support</p> */}
+                                <p className="bg-gray-700 p-2 rounded shadow">RonX ETHERIUM</p>
+                                <p className="bg-gray-700 p-2 rounded shadow">RonX Support</p> */}
                             </div>
                         </div>
                     </div>

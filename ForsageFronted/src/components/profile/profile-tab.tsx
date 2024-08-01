@@ -39,56 +39,15 @@ export default function ProfileTab() {
               <div className="w-full">
                 <div className="profile-link mt-2 p-14 bg-[#406aff] bg-opacity-60 rounded-xl">
                   <h4 className="mb-6">Personal link</h4>
-                  <a href="https://forsage.io/b/pyffvf" target="_blank" rel="noopener noreferrer" className="text-white hover:underline text-2xl">
-                    https://forsage.io/b/pyffvf
+                  <a href="https://RonX.io/b/pyffvf" target="_blank" rel="noopener noreferrer" className="text-white hover:underline text-2xl">
+                    Link:
                   </a>
                 </div>
-                <div className="profile-link mt-5 relative">
-                  <div className="bg-[rgba(30,30,30,var(--tw-bg-opacity))] rounded-2xl">
-                    <Image src={''} alt="frtx" className="rounded-2xl w-full h-full object-cover" />
-                  </div>
-                  <div className="absolute top-[50%] right-4 flex items-center justify-center frgx-banner-border rounded-2xl p-[1px] z-[11]">
-                    <div className="flex items-center justify-center w-full h-full bg-black rounded-2xl p-3">
-                      <span className="text-white font-poppins sm:text-sm text-xs text-center">
-                        Login to show balance
-                      </span>
-                    </div>
-                  </div>
-                </div>
+              
               </div>
             </div>
-            <div className="profile-stats grid grid-cols-4 gap-4">
-              <div className="stat-item bg-[#242526] bg-opacity-50 p-5 rounded-lg flex flex-col justify-between">
-                <div className="stat-title text-sm text-gray-400">Partners</div>
-                <div className="stat-value text-xl font-semibold">0</div>
-                <div className="flex w-full">
-                  <div className="w-full bg-green-400 bg-opacity-15 text-green-500 rounded-3xl p-2 flex text-base items-center justify-between sm:text-sm">
-                    <div className="flex items-center">
-                      <svg className="stroke-current mr-1.5" width="8" height="11" stroke="#2CFF4E" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M4 10V1m0 0L1 4m3-3 3 3" strokeLinecap="round" strokeLinejoin="round"></path>
-                      </svg>
-                      3
-                    </div>
-                    <Image src={''} alt="Activity" width={24} height={24} className="ml-2.5 w-6 h-6" />
-                  </div>
-                </div>
-              </div>
-              {/* Repeat similar structure for other stat items */}
-            </div>
-            <div className="profile-trophies mt-4 grid grid-cols-5 align-middle">
-              {/* Repeat the trophy structure */}
-              <div className="text-center">
-                <Image src={''} alt="cup" />
-              </div>
-              <div className="flex align-middle justify-center text-center">
-                <div className="m-auto">
-                  <h1 className="inline-flex">
-                    <a className="" href="/">Show all</a>
-                    <Image className="h-11 w-11 ml-3 cursor-pointer" src={''} alt="greater sign" />
-                  </h1>
-                </div>
-              </div>
-            </div>
+   
+          
           </div>
         </TabPanel>
         <TabPanel className="focus:outline-none">

@@ -29,7 +29,7 @@ const Idea: React.FC<IdeaProps> = ({ title, rating, date, description }) => {
 
 const ideasData = [
   {
-    title: 'Forsage.io is based on bnb chain and it\'s (Forsage.io) doesn\'t have their own',
+    title: 'RonX.io is based on bnb chain and it\'s (RonX.io) doesn\'t have their own',
     rating: 1426,
     date: '15.08.2023',
     description: ''
@@ -41,25 +41,25 @@ const ideasData = [
     description: 'This Website And plataform is good for Poor people to eaen Money for There'
   },
   {
-    title: 'I love forsage',
+    title: 'I love RonX',
     rating: 737,
     date: '12.08.2023',
     description: 'It\'s very grateful'
   },
   {
-    title: 'I love forsage.io',
+    title: 'I love RonX.io',
     rating: 611,
     date: '12.08.2023',
     description: 'Life change Love'
   },
   {
-    title: 'Forsage.io',
+    title: 'RonX.io',
     rating: 370,
     date: '12.08.2023',
     description: ''
   },
   {
-    title: 'Forsage.io is the best',
+    title: 'RonX.io is the best',
     rating: 204,
     date: '12.08.2023',
     description: ''
@@ -68,13 +68,13 @@ const ideasData = [
     title: 'Foresage',
     rating: 305,
     date: '12.08.2023',
-    description: 'Forsage are best platform for online earning.'
+    description: 'RonX are best platform for online earning.'
   },
   {
-    title: 'Forsage.io is best income platform',
+    title: 'RonX.io is best income platform',
     rating: 159,
     date: '12.08.2023',
-    description: 'Forsage io is very very good earning platform'
+    description: 'RonX io is very very good earning platform'
   }
 ];
 

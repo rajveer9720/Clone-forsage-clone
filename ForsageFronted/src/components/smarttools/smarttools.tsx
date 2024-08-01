@@ -39,7 +39,7 @@ export default function SmartTools() {
           <div className="max-w-50% flex flex-1 overflow-hidden relative w-full flex-col bg-black-light rounded p-7.5 pb-5 space-y-5 sm:space-y-2.5 sm:p-5 sm:rounded-none lg:max-w-full">
             <a
               target="_blank"
-              href="https://t.me/busd_forsage_io_bot"
+              href="https://t.me/busd_RonX_io_bot"
               className="block"
             >
               <div className="flex items-center justify-between rounded-lg bg-gray-100 hover:bg-white-300 shadow-md p-5 sm:items-start dark:bg-light-dark">
@@ -60,7 +60,7 @@ export default function SmartTools() {
                 </div>
                 <div className="flex flex-1 flex-col items-start justify-center">
                   <span className="text-white font-medium text-base mb-1.5 notranslate">
-                    Official Forsage App
+                    Official RonX App
                   </span>
                   <span className="text-white-500 text-sm">
                     Enjoy all the features from your smartphone
@@ -70,7 +70,7 @@ export default function SmartTools() {
             </a>
             <a
               target="_blank"
-              href="https://forsage-storage.s3.eu-central-1.amazonaws.com/forsageApp.apk"
+              href="https://RonX-storage.s3.eu-central-1.amazonaws.com/RonXApp.apk"
               className="block"
             >
               <div className="flex items-center justify-between rounded-lg bg-gray-100 hover:bg-white-300 shadow-md p-5 sm:items-start dark:bg-light-dark">
@@ -89,7 +89,7 @@ export default function SmartTools() {
                 </div>
                 <div className="flex flex-1 flex-col items-start justify-center">
                   <span className="text-white font-medium text-base mb-1.5 notranslate">
-                    Official Forsage App
+                    Official RonX App
                   </span>
                   <span className="text-white-500 text-sm">
                     Enjoy all the features from your smartphone
@@ -106,7 +106,7 @@ export default function SmartTools() {
             <a
               className="w-7 h-7 flex justify-center items-center rounded-full bg-white-100 hover:bg-white-300"
               target="_blank"
-              href="https://discord.gg/forsage/"
+              href="https://discord.gg/RonX/"
             >
               <svg className="w-4 h-4" viewBox="0 0 21 15" fill="#fff" xmlns="http://www.w3.org/2000/svg">
                 <path d="M17.581 1.247A15.918 15.918 0 0 0 13.58 0a.084.084 0 0 0-.065.028c-.169.31-.366.712-.497 1.022a15.08 15.08 0 0 0-4.499 0A9.395 9.395 0 0 0 8.012.028C8.002.01 7.975 0 7.947 0a16.038 16.038 0 0 0-4.003 1.247c-.009 0-.018.009-.028.018C1.367 5.08.664 8.791 1.011 12.465c0 .02.01.038.028.047a16.28 16.28 0 0 0 4.911 2.484c.028.01.056 0 .066-.019.375-.515.712-1.059 1.003-1.63.018-.038 0-.075-.038-.085-.534-.206-1.04-.45-1.537-.73-.037-.02-.037-.076-.01-.104.104-.075.207-.16.31-.234a.058.058 0 0 1 .066-.01c3.224 1.472 6.7 1.472 9.888 0a.058.058 0 0 1 .065.01c.103.084.206.16.31.243.037.029.037.085-.01.104-.487.29-1.003.524-1.537.73-.037.01-.047.057-.037.085.3.572.637 1.115 1.002 1.63.029.01.057.02.085.01a16.215 16.215 0 0 0 4.92-2.484.052.052 0 0 0 .029-.046c.412-4.246-.685-7.93-2.906-11.2-.01-.01-.019-.02-.038-.02ZM7.506 10.226c-.965 0-1.771-.89-1.771-1.987s.787-1.987 1.771-1.987c.994 0 1.78.9 1.771 1.987 0 1.096-.787 1.986-1.771 1.986Zm6.533 0c-.966 0-1.772-.89-1.772-1.987s.788-1.987 1.772-1.987c.993 0 1.78.9 1.771 1.987 0 1.096-.778 1.986-1.771 1.986Z"></path>
@@ -115,7 +115,7 @@ export default function SmartTools() {
             <a
               className="w-7 h-7 flex justify-center items-center rounded-full bg-white-100 hover:bg-white-300"
               target="_blank"
-              href="https://t.me/forsageio_official/"
+              href="https://t.me/RonXio_official/"
             >
               <svg className="w-4 h-4" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -129,7 +129,7 @@ export default function SmartTools() {
             <a
               className="w-7 h-7 flex justify-center items-center rounded-full bg-white-100 hover:bg-white-300"
               target="_blank"
-              href="https://twitter.com/forsageofficial/"
+              href="https://twitter.com/RonXofficial/"
             >
               <svg className="w-4 h-4" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path

@@ -11,9 +11,6 @@ interface Stage {
 const stages: Stage[] = [
   { name: 'x3', costMultiplier: 1, resultMultiplier: 3 },
   { name: 'x4', costMultiplier: 1, resultMultiplier: 4 },
-  { name: 'xXx', costMultiplier: 2, resultMultiplier: 3 },
-  { name: 'xGold', costMultiplier: 2, resultMultiplier: 4 },
-  { name: 'xQore', costMultiplier: 3, resultMultiplier: 4 },
 ];
 
 const slotPrices = [5, 10, 20, 40, 80, 160, 320, 640, 1280, 2560, 5120, 10240];
@@ -42,11 +39,11 @@ export default function Calculator() {
   return (
     <div className="w-full p-6 bg-gray-900 text-white min-h-screen flex flex-col items-center">
       <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">
-        Forsage Participant
+        RonX Participant
       </h1>
       <h3 className="text-3xl font-bold mb-4 text-center">Calculator</h3>
       <p className="w-2/3 mb-4 mx-12 text-lg text-center py-6">
-        Calculate your potential result from participating in FORSAGE by selecting levels to activate below. The results are calculated for 1 cycle of all selected levels. All calculations are for informational purposes only, and are not a public offer.
+        Calculate your potential result from participating in RonX by selecting levels to activate below. The results are calculated for 1 cycle of all selected levels. All calculations are for informational purposes only, and are not a public offer.
       </p>
 
       <div className="flex space-x-4 mb-4 px-8">

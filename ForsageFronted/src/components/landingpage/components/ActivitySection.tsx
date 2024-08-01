@@ -30,7 +30,7 @@ const ActivitySection: React.FC = () => {
      
       }}>
           <h2 className="m-6 pt-7  text-4xl font-bold mb-4">Platform Recent Activity</h2>
-          <p className="text-lg mb-8">Real-time global events of the FORSAGE Platform</p>
+          <p className="text-lg mb-8">Real-time global events of the RonX Platform</p>
           <div className="bg-black rounded-lg overflow-hidden shadow-lg">
             <div className="overflow-y-auto max-h-96">
               <ul className="divide-y divide-gray-700">

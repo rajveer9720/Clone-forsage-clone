@@ -5,7 +5,7 @@ import React from 'react';
 const Roadmap = () => {
   return (
     <div className="bg-white shadow-md rounded-lg p-6">
-      <h2 className="text-2xl font-bold mb-4">Project Roadmap</h2>
+      <h2 className="text-2xl font-bold mb-4">Project Roadmap1</h2>
       <ul className="space-y-4">
         <li>
           <div className="flex items-center">
