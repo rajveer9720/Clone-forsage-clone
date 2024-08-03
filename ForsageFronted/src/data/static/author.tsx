@@ -11,7 +11,7 @@ import User5 from '@/assets/images/avatar/6.png';
 
 export const authorData = {
   id: 157896,
-  name: 'Spy Thirtythree',
+  name: 'Spy Thirtythres',
   user_name: 'Cameronwilliamson',
   wallet_key:
     '0x9Af568442868356c7aE834A47614600002545476555555555772d9F5B87e9b',
@@ -26,91 +26,91 @@ export const authorData = {
     thumbnail: AuthorImage,
     original: AuthorImage,
   },
-  bio: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.',
-  following: '1,504',
-  followers: '1,845',
+  // bio: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.',
+  // following: '1,504',
+  // followers: '1,845',
   followed_by: [
-    {
-      id: 1,
-      name: 'Thirtythree',
-      slug: 'thirtythree',
-      avatar: {
-        id: 1,
-        thumbnail: User1,
-        original: User1,
-      },
-    },
-    {
-      id: 2,
-      name: 'Thirtythree',
-      slug: 'thirtythree',
-      avatar: {
-        id: 1,
-        thumbnail: User2,
-        original: User2,
-      },
-    },
-    {
-      id: 3,
-      name: 'Thirtythree',
-      slug: 'thirtythree',
-      avatar: {
-        id: 1,
-        thumbnail: User3,
-        original: User3,
-      },
-    },
-    {
-      id: 4,
-      name: 'Thirtythree',
-      slug: 'thirtythree',
-      avatar: {
-        id: 1,
-        thumbnail: User4,
-        original: User4,
-      },
-    },
-    {
-      id: 5,
-      name: 'Thirtythree',
-      slug: 'thirtythree',
-      avatar: {
-        id: 1,
-        thumbnail: User5,
-        original: User5,
-      },
-    },
-  ],
-  socials: [
-    {
-      id: 1,
-      title: '@dontbesovasya',
-      link: 'https://dontbesovasya.io',
-      icon: <Twitter className="w-4" />,
-    },
-    {
-      id: 2,
-      title: '@dontbesovasya',
-      link: 'https://dontbesovasya.io',
-      icon: <Facebook className="w-4" />,
-    },
-    {
-      id: 3,
-      title: '@dontbesovasya',
-      link: 'https://dontbesovasya.io',
-      icon: <Instagram className="w-4" />,
-    },
-  ],
-  links: [
-    {
-      id: 1,
-      title: '@dontbesovasya',
-      link: 'https://dontbesovasya.io',
-    },
-    {
-      id: 2,
-      title: '@dontbesovasya',
-      link: 'https://dontbesovasya.io',
-    },
+    // {
+    //   id: 1,
+    //   name: 'Thirtythree',
+    //   slug: 'thirtythree',
+    //   avatar: {
+    //     id: 1,
+    //     thumbnail: User1,
+    //     original: User1,
+    //   },
+    // },
+  //   {
+  //     id: 2,
+  //     name: 'Thirtythree',
+  //     slug: 'thirtythree',
+  //     avatar: {
+  //       id: 1,
+  //       thumbnail: User2,
+  //       original: User2,
+  //     },
+  //   },
+  //   {
+  //     id: 3,
+  //     name: 'Thirtythree',
+  //     slug: 'thirtythree',
+  //     avatar: {
+  //       id: 1,
+  //       thumbnail: User3,
+  //       original: User3,
+  //     },
+  //   },
+  //   {
+  //     id: 4,
+  //     name: 'Thirtythree',
+  //     slug: 'thirtythree',
+  //     avatar: {
+  //       id: 1,
+  //       thumbnail: User4,
+  //       original: User4,
+  //     },
+  //   },
+  //   {
+  //     id: 5,
+  //     name: 'Thirtythree',
+  //     slug: 'thirtythree',
+  //     avatar: {
+  //       id: 1,
+  //       thumbnail: User5,
+  //       original: User5,
+  //     },
+  //   },
+  // ],
+  // socials: [
+  //   {
+  //     id: 1,
+  //     title: '@dontbesovasya',
+  //     link: 'https://dontbesovasya.io',
+  //     icon: <Twitter className="w-4" />,
+  //   },
+  //   {
+  //     id: 2,
+  //     title: '@dontbesovasya',
+  //     link: 'https://dontbesovasya.io',
+  //     icon: <Facebook className="w-4" />,
+  //   },
+  //   {
+  //     id: 3,
+  //     title: '@dontbesovasya',
+  //     link: 'https://dontbesovasya.io',
+  //     icon: <Instagram className="w-4" />,
+  //   },
+  // ],
+  // links: [
+  //   {
+  //     id: 1,
+  //     title: '@dontbesovasya',
+  //     link: 'https://dontbesovasya.io',
+  //   },
+  //   {
+  //     id: 2,
+  //     title: '@dontbesovasya',
+  //     link: 'https://dontbesovasya.io',
+  //   },
   ],
 };

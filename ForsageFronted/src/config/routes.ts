@@ -1,5 +1,6 @@
 import Instruction from "@/components/instruction/instruction";
 import LandingPage from "@/components/landingpage/landingpage";
+import LevelSlider from "@/components/LevelSlider/LevelSlider";
 
 const routes = {
   home: '/',
@@ -48,6 +49,8 @@ const routes = {
   homeminimal: '/minimal',
   Parteners: '/parteners',
   NFTS: '/nfts',
+  Program: '/program',
+  LevelSlider: '/levelslider',
 };
 
 export default routes;

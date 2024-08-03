@@ -86,7 +86,7 @@ export default function Links() {
             </div>
           </div>
           <div className="bg-gray-800 p-4 rounded-lg col-span-4">
-            <h3 className="text-lg font-bold mb-2">Personal link</h3>
+            <h3 className="text-lg font-bold mb-2">Personal linksss</h3>
             <div className="flex items-center">
               <a
                 href="RonX.lo/b/yke8rv"
