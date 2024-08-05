@@ -2,6 +2,8 @@
 
 import React from 'react';
 import Image from 'next/image'; // Importing Image component from Next.js for better optimization
+import Ronxvideo from '../../assets/video/Ronx.mp4'
+
 
 // Import the image directly
 import DecentralizationImage from 'src/assets/images/Instruction/decentralization.webp';
@@ -12,7 +14,7 @@ const Instruction: React.FC = () => {
       <div className="flex flex-col items-center rounded-lg bg-gray-100 p-5 dark:bg-light-dark">
         <div className="flex flex-col items-center sm:flex-row sm:items-start">
           <div className="flex flex-col space-y-2.5">
-            <h2>Decentralization</h2>
+            <h2>Decentralizationss</h2>
             <Image
               src={DecentralizationImage}
               alt="Decentralization"
@@ -86,14 +88,15 @@ const Instruction: React.FC = () => {
           </span>
           <div className="flex">
             <div className="flex mt-5 items-center sm:items-start flex-col">
-              <iframe
+
+              <video controls
                 className="bg-black w-full mb-7.5 h-300px sm:h-180px"
-                src="https://www.youtube.com/embed/YAYAKIp5JeE"
-                frameBorder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
+                src={Ronxvideo}
+                autoPlay
+                muted
+                loop  
                 title="RonX Marketing Video"
-              ></iframe>
+              ></video>
               <div className="mt-5 space-y-2.5">
                 <span>
                   <b className="inline text-white font-medium">
@@ -213,7 +216,7 @@ const Instruction: React.FC = () => {
 
 
 
-      <div className='flex mt-5 items-center rounded-lg  bg-gray-100  p-5  dark:bg-light-dark'>
+      {/* <div className='flex mt-5 items-center rounded-lg  bg-gray-100  p-5  dark:bg-light-dark'>
         <div className="flex flex-col rounded bg-black-light text-base w-full p-7.5 sm:text-sm sm:p-5">
           <span className="text-2xl text-white font-medium mb-5 sm:text-xl">Registration</span>
           <div className="flex">
@@ -240,7 +243,7 @@ const Instruction: React.FC = () => {
           </div>
         </div>
 
-      </div>
+      </div> */}
 
       <div className='flex mt-5 items-center rounded-lg  bg-gray-100  p-5  dark:bg-light-dark'>
         <div className="flex flex-col rounded bg-black-light text-base w-full p-7.5 sm:text-sm sm:p-5">
@@ -391,72 +394,6 @@ const Instruction: React.FC = () => {
         </div>
       </div>
 
-      <div className='flex mt-5 items-center rounded-lg  bg-gray-100  p-5  dark:bg-light-dark'>
-        <div className="flex flex-col rounded bg-black-light text-base w-full p-7.5 sm:text-sm sm:p-5">
-          <span className="text-2xl text-white font-medium mb-5 sm:text-xl">How RonX xXx works</span>
-          <div className="flex ">
-            <div className="space-y-2.5">
-              {/* SVG and other elements */}
-              <div className="flex justify-evenly items-center space-x-5 mb-5 sm:space-y-2.5 sm:space-x-0 sm:flex-col">
-
-              </div>
-              <ul className="space-y-2.5">
-                <li>
-
-                  <b className="inline text-white font-medium">First line (2 places):</b> rewards go to your upline partners.
-                </li>
-                <li>
-
-                  <b className="inline text-white font-medium">Second line (4 places):</b> you get <b className="inline text-white font-medium">30%</b> of the level cost from each of the four partners, and 70% goes to the upline, since for him they are partners of the 4th line.
-                </li>
-                <li>
-
-                  <b className="inline text-white font-medium">Third line (8 places):</b> you get <b className="inline text-white font-medium">70%</b> of the level cost from each of the eight partners, and 30% goes to the upline, since for him they are partners of the 3rd line.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-
-      <div className='flex mt-5 items-center rounded-lg  bg-gray-100  p-5  dark:bg-light-dark'>
-
-        <div className="flex flex-col rounded bg-black-light text-base w-full p-7.5 sm:text-sm sm:p-5">
-          <span className="text-2xl text-white font-medium mb-5 sm:text-xl">How RonX xGold works</span>
-          <div className="flex ">
-            <div className="space-y-2.5">
-              <div className="flex justify-evenly items-center space-x-5 mb-5 sm:space-y-2.5 sm:space-x-0 sm:flex-col">
-
-              </div>
-              <div>
-                The advantage of <b className="inline text-white font-medium">xGold</b> program is a larger number of partners
-                and spillover opportunities, which generates an income of 1020% from one cycle of the level.
-              </div>
-              <ul className="space-y-2.5">
-                <li>
-                  <b className="inline text-white font-medium">First line (2 places):</b> rewards go to your{' '}
-                  <b className="inline text-white font-medium">upline</b> partner.
-                </li>
-                <li>
-                  <b className="inline text-white font-medium">Second line (4 places):</b> you get{' '}
-                  <b className="inline text-white font-medium">20%.</b> from each spot
-                </li>
-                <li>
-                  <b className="inline text-white font-medium">Third line (8 places):</b> you get{' '}
-                  <b className="inline text-white font-medium">30%</b> from each spot
-                </li>
-                <li>
-                  <b className="inline text-white font-medium">Fourth line (16 places):</b> you get{' '}
-                  <b className="inline text-white font-medium">50%</b> from each participant (30% and 20% are distributed to
-                  upline partners).
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
 
 
 
@@ -471,10 +408,10 @@ const Instruction: React.FC = () => {
               <div className="flex justify-evenly items-center space-x-5 mb-5 sm:space-y-2.5 sm:space-x-0 sm:flex-col">
 
               </div>
-              <div>
+              {/* <div>
                 The advantage of <b className="inline text-white font-medium">xGold</b> program is a larger number of partners
                 and spillover opportunities, which generates an income of 1020% from one cycle of the level.
-              </div>
+              </div> */}
               <ul className="space-y-2.5">
                 <li>
                   <b className="inline text-white font-medium">First line (2 places):</b> rewards go to your{' '}
@@ -663,7 +600,7 @@ const Instruction: React.FC = () => {
       </div>
 
 
-      <div className='flex mt-5 items-center rounded-lg  bg-gray-100  p-5  dark:bg-light-dark'>
+      {/* <div className='flex mt-5 items-center rounded-lg  bg-gray-100  p-5  dark:bg-light-dark'>
 
 
         <div className="flex flex-col rounded bg-black-light text-base w-full p-7.5 sm:text-sm sm:p-5">
@@ -702,181 +639,181 @@ const Instruction: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
 
-                    
+
       <div className='flex mt-5 items-center rounded-lg  bg-gray-100  p-5  dark:bg-light-dark'>
 
 
-<div className="flex flex-col rounded bg-black-light text-base w-full p-7.5 sm:text-sm sm:p-5">
-  <span className="text-2xl text-white font-medium mb-5 sm:text-xl">Spillovers
+        <div className="flex flex-col rounded bg-black-light text-base w-full p-7.5 sm:text-sm sm:p-5">
+          <span className="text-2xl text-white font-medium mb-5 sm:text-xl">Spillovers
 
 
 
-  </span>
-  <div className="flex ">
-    <div className="space-y-2.5">
-      <div className="flex justify-evenly items-center space-x-5 mb-5 sm:space-y-2.5 sm:space-x-0 sm:flex-col">
+          </span>
+          <div className="flex ">
+            <div className="space-y-2.5">
+              <div className="flex justify-evenly items-center space-x-5 mb-5 sm:space-y-2.5 sm:space-x-0 sm:flex-col">
 
+              </div>
+              <div>
+                The advantage of <b className="inline text-white font-medium">xGold</b> program is a larger number of partners
+                and spillover opportunities, which generates an income of 1020% from one cycle of the level.
+              </div>
+              <ul className="space-y-2.5">
+                <li>
+                  <b className="inline text-white font-medium">First line (2 places):</b> rewards go to your{' '}
+                  <b className="inline text-white font-medium">upline</b> partner.
+                </li>
+                <li>
+                  <b className="inline text-white font-medium">Second line (4 places):</b> you get{' '}
+                  <b className="inline text-white font-medium">20%.</b> from each spot
+                </li>
+                <li>
+                  <b className="inline text-white font-medium">Third line (8 places):</b> you get{' '}
+                  <b className="inline text-white font-medium">30%</b> from each spot
+                </li>
+                <li>
+                  <b className="inline text-white font-medium">Fourth line (16 places):</b> you get{' '}
+                  <b className="inline text-white font-medium">50%</b> from each participant (30% and 20% are distributed to
+                  upline partners).
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-      <div>
-        The advantage of <b className="inline text-white font-medium">xGold</b> program is a larger number of partners
-        and spillover opportunities, which generates an income of 1020% from one cycle of the level.
-      </div>
-      <ul className="space-y-2.5">
-        <li>
-          <b className="inline text-white font-medium">First line (2 places):</b> rewards go to your{' '}
-          <b className="inline text-white font-medium">upline</b> partner.
-        </li>
-        <li>
-          <b className="inline text-white font-medium">Second line (4 places):</b> you get{' '}
-          <b className="inline text-white font-medium">20%.</b> from each spot
-        </li>
-        <li>
-          <b className="inline text-white font-medium">Third line (8 places):</b> you get{' '}
-          <b className="inline text-white font-medium">30%</b> from each spot
-        </li>
-        <li>
-          <b className="inline text-white font-medium">Fourth line (16 places):</b> you get{' '}
-          <b className="inline text-white font-medium">50%</b> from each participant (30% and 20% are distributed to
-          upline partners).
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
-</div>
 
 
-<div className='flex mt-5 items-center rounded-lg  bg-gray-100  p-5  dark:bg-light-dark'>
-
-
-<div className="flex flex-col rounded bg-black-light text-base w-full p-7.5 sm:text-sm sm:p-5">
-  <span className="text-2xl text-white font-medium mb-5 sm:text-xl">Profit
-
-
-
-
-
-  </span>
-  <div className="flex ">
-    <div className="space-y-2.5">
-      <div className="flex justify-evenly items-center space-x-5 mb-5 sm:space-y-2.5 sm:space-x-0 sm:flex-col">
-
-      </div>
-      <div>
-        The advantage of <b className="inline text-white font-medium">xGold</b> program is a larger number of partners
-        and spillover opportunities, which generates an income of 1020% from one cycle of the level.
-      </div>
-      <ul className="space-y-2.5">
-        <li>
-          <b className="inline text-white font-medium">First line (2 places):</b> rewards go to your{' '}
-          <b className="inline text-white font-medium">upline</b> partner.
-        </li>
-        <li>
-          <b className="inline text-white font-medium">Second line (4 places):</b> you get{' '}
-          <b className="inline text-white font-medium">20%.</b> from each spot
-        </li>
-        <li>
-          <b className="inline text-white font-medium">Third line (8 places):</b> you get{' '}
-          <b className="inline text-white font-medium">30%</b> from each spot
-        </li>
-        <li>
-          <b className="inline text-white font-medium">Fourth line (16 places):</b> you get{' '}
-          <b className="inline text-white font-medium">50%</b> from each participant (30% and 20% are distributed to
-          upline partners).
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
-</div>
-            
       <div className='flex mt-5 items-center rounded-lg  bg-gray-100  p-5  dark:bg-light-dark'>
 
 
-<div className="flex flex-col rounded bg-black-light text-base w-full p-7.5 sm:text-sm sm:p-5">
-  <span className="text-2xl text-white font-medium mb-5 sm:text-xl">How many levels should be activated at the start
+        <div className="flex flex-col rounded bg-black-light text-base w-full p-7.5 sm:text-sm sm:p-5">
+          <span className="text-2xl text-white font-medium mb-5 sm:text-xl">Profit
 
 
 
-  </span>
-  <div className="flex ">
-    <div className="space-y-2.5">
-      <div className="flex justify-evenly items-center space-x-5 mb-5 sm:space-y-2.5 sm:space-x-0 sm:flex-col">
 
+
+          </span>
+          <div className="flex ">
+            <div className="space-y-2.5">
+              <div className="flex justify-evenly items-center space-x-5 mb-5 sm:space-y-2.5 sm:space-x-0 sm:flex-col">
+
+              </div>
+              <div>
+                The advantage of <b className="inline text-white font-medium">xGold</b> program is a larger number of partners
+                and spillover opportunities, which generates an income of 1020% from one cycle of the level.
+              </div>
+              <ul className="space-y-2.5">
+                <li>
+                  <b className="inline text-white font-medium">First line (2 places):</b> rewards go to your{' '}
+                  <b className="inline text-white font-medium">upline</b> partner.
+                </li>
+                <li>
+                  <b className="inline text-white font-medium">Second line (4 places):</b> you get{' '}
+                  <b className="inline text-white font-medium">20%.</b> from each spot
+                </li>
+                <li>
+                  <b className="inline text-white font-medium">Third line (8 places):</b> you get{' '}
+                  <b className="inline text-white font-medium">30%</b> from each spot
+                </li>
+                <li>
+                  <b className="inline text-white font-medium">Fourth line (16 places):</b> you get{' '}
+                  <b className="inline text-white font-medium">50%</b> from each participant (30% and 20% are distributed to
+                  upline partners).
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-      <div>
-        The advantage of <b className="inline text-white font-medium">xGold</b> program is a larger number of partners
-        and spillover opportunities, which generates an income of 1020% from one cycle of the level.
-      </div>
-      <ul className="space-y-2.5">
-        <li>
-          <b className="inline text-white font-medium">First line (2 places):</b> rewards go to your{' '}
-          <b className="inline text-white font-medium">upline</b> partner.
-        </li>
-        <li>
-          <b className="inline text-white font-medium">Second line (4 places):</b> you get{' '}
-          <b className="inline text-white font-medium">20%.</b> from each spot
-        </li>
-        <li>
-          <b className="inline text-white font-medium">Third line (8 places):</b> you get{' '}
-          <b className="inline text-white font-medium">30%</b> from each spot
-        </li>
-        <li>
-          <b className="inline text-white font-medium">Fourth line (16 places):</b> you get{' '}
-          <b className="inline text-white font-medium">50%</b> from each participant (30% and 20% are distributed to
-          upline partners).
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
-</div>
 
-            
       <div className='flex mt-5 items-center rounded-lg  bg-gray-100  p-5  dark:bg-light-dark'>
 
 
-<div className="flex flex-col rounded bg-black-light text-base w-full p-7.5 sm:text-sm sm:p-5">
-  <span className="text-2xl text-white font-medium mb-5 sm:text-xl">Definitions
+        <div className="flex flex-col rounded bg-black-light text-base w-full p-7.5 sm:text-sm sm:p-5">
+          <span className="text-2xl text-white font-medium mb-5 sm:text-xl">How many levels should be activated at the start
 
 
 
-  </span>
-  <div className="flex ">
-    <div className="space-y-2.5">
-      <div className="flex justify-evenly items-center space-x-5 mb-5 sm:space-y-2.5 sm:space-x-0 sm:flex-col">
+          </span>
+          <div className="flex ">
+            <div className="space-y-2.5">
+              <div className="flex justify-evenly items-center space-x-5 mb-5 sm:space-y-2.5 sm:space-x-0 sm:flex-col">
 
+              </div>
+              <div>
+                The advantage of <b className="inline text-white font-medium">xGold</b> program is a larger number of partners
+                and spillover opportunities, which generates an income of 1020% from one cycle of the level.
+              </div>
+              <ul className="space-y-2.5">
+                <li>
+                  <b className="inline text-white font-medium">First line (2 places):</b> rewards go to your{' '}
+                  <b className="inline text-white font-medium">upline</b> partner.
+                </li>
+                <li>
+                  <b className="inline text-white font-medium">Second line (4 places):</b> you get{' '}
+                  <b className="inline text-white font-medium">20%.</b> from each spot
+                </li>
+                <li>
+                  <b className="inline text-white font-medium">Third line (8 places):</b> you get{' '}
+                  <b className="inline text-white font-medium">30%</b> from each spot
+                </li>
+                <li>
+                  <b className="inline text-white font-medium">Fourth line (16 places):</b> you get{' '}
+                  <b className="inline text-white font-medium">50%</b> from each participant (30% and 20% are distributed to
+                  upline partners).
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-      <div>
-        The advantage of <b className="inline text-white font-medium">xGold</b> program is a larger number of partners
-        and spillover opportunities, which generates an income of 1020% from one cycle of the level.
+
+
+      <div className='flex mt-5 items-center rounded-lg  bg-gray-100  p-5  dark:bg-light-dark'>
+
+
+        <div className="flex flex-col rounded bg-black-light text-base w-full p-7.5 sm:text-sm sm:p-5">
+          <span className="text-2xl text-white font-medium mb-5 sm:text-xl">Definitions
+
+
+
+          </span>
+          <div className="flex ">
+            <div className="space-y-2.5">
+              <div className="flex justify-evenly items-center space-x-5 mb-5 sm:space-y-2.5 sm:space-x-0 sm:flex-col">
+
+              </div>
+              <div>
+                The advantage of <b className="inline text-white font-medium">xGold</b> program is a larger number of partners
+                and spillover opportunities, which generates an income of 1020% from one cycle of the level.
+              </div>
+              <ul className="space-y-2.5">
+                <li>
+                  <b className="inline text-white font-medium">First line (2 places):</b> rewards go to your{' '}
+                  <b className="inline text-white font-medium">upline</b> partner.
+                </li>
+                <li>
+                  <b className="inline text-white font-medium">Second line (4 places):</b> you get{' '}
+                  <b className="inline text-white font-medium">20%.</b> from each spot
+                </li>
+                <li>
+                  <b className="inline text-white font-medium">Third line (8 places):</b> you get{' '}
+                  <b className="inline text-white font-medium">30%</b> from each spot
+                </li>
+                <li>
+                  <b className="inline text-white font-medium">Fourth line (16 places):</b> you get{' '}
+                  <b className="inline text-white font-medium">50%</b> from each participant (30% and 20% are distributed to
+                  upline partners).
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-      <ul className="space-y-2.5">
-        <li>
-          <b className="inline text-white font-medium">First line (2 places):</b> rewards go to your{' '}
-          <b className="inline text-white font-medium">upline</b> partner.
-        </li>
-        <li>
-          <b className="inline text-white font-medium">Second line (4 places):</b> you get{' '}
-          <b className="inline text-white font-medium">20%.</b> from each spot
-        </li>
-        <li>
-          <b className="inline text-white font-medium">Third line (8 places):</b> you get{' '}
-          <b className="inline text-white font-medium">30%</b> from each spot
-        </li>
-        <li>
-          <b className="inline text-white font-medium">Fourth line (16 places):</b> you get{' '}
-          <b className="inline text-white font-medium">50%</b> from each participant (30% and 20% are distributed to
-          upline partners).
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
-</div>
 
     </>
   );

@@ -27,7 +27,7 @@ export default function SmartTools() {
                     Smart tools
                   </span>
                   <a
-                    className="inline-flex px-2.5 !leading-30px bg-blue-100 notranslate hover:bg-main-blue-300 text-main-blue rounded text-xl w-max sm:text-base"
+                    className="inline-flex px-2.5 !leading-30px bg-blue-800 notranslate hover:bg-main-blue-300 text-main-blue rounded text-xl w-max sm:text-base"
                     href="/dashboard?user=1710397"
                   >
                     ID 1710397

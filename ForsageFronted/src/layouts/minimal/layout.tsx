@@ -15,6 +15,7 @@ import { useWindowScroll } from '@/lib/hooks/use-window-scroll';
 import { useLayout } from '@/lib/hooks/use-layout';
 import routes from '@/config/routes';
 import { LAYOUT_OPTIONS } from '@/lib/constants';
+import full_banner from '@/assets/images/full-banner.png'
 
 function NotificationButton() {
   const isMounted = useIsMounted();
@@ -115,7 +116,14 @@ export default function MinimalLayout({
     <>
     
       <Header />
-      <div className="bg-light-100 dark:bg-dark-100 mt-8 flex min-h-screen flex-col gap-6 px-4 sm:px-6 lg:px-8 3xl:px-10">
+      <div className="bg-light-100 dark:bg-dark-100 mt-8 flex min-h-screen flex-col gap-6 px-4 sm:px-6 lg:px-8 3xl:px-10"  style={{
+             backgroundImage: `url(${full_banner.src})`,
+             backgroundSize: 'cover',
+             backgroundPosition: 'center',
+            
+             backgroundRepeat: 'no-repeat',
+          
+            }}>
         <main className="mx-auto mb-9 flex w-full max-w-[2160px] flex-grow flex-col @container">
           {children}
         </main>

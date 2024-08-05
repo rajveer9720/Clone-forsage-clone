@@ -22,37 +22,37 @@ const roadmapItems: RoadmapItem[] = [
     title: "Social",
     icon: social, // Local image import
     date: "21.08",
-    completed: true,
+    completed: false,
   },
   {
     title: "Achievements",
     icon: achievements,
     date: "28.08",
-    completed: true,
+    completed: false,
   },
   {
     title: "Cyole Rally Marathon",
     icon: cyoleRallyMarathon,
     date: "4.09",
-    completed: true,
+    completed: false,
   },
   {
     title: "RonX Games",
     icon: RonXGames,
     date: "21.11",
-    completed: true,
+    completed: false,
   },
   {
     title: "Custom Invite page",
     icon: customInvitePdf,
     date: "12.10",
-    completed: true,
+    completed: false,
   },
   {
     title: "New program",
     icon: newProgram,
     date: "3.10",
-    completed: true,
+    completed: false,
   },
   {
     title: "Token",
@@ -71,7 +71,7 @@ const Roadmap: React.FC = () => {
 
   return (
     <div className="w-5/6 m-auto my-6 text-white p-4 md:p-8 rounded-lg">
-      <h1 className="text-xl md:text-2xl font-bold mb-4 my-4">Roadmap</h1>
+      <h1 className="text-xl md:text-2xl font-bold mb-4 my-4">Roadmapss</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-8">
         {roadmapItems.map((item, index) => (
           <div

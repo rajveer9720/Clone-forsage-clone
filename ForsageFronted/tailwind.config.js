@@ -16,6 +16,7 @@ module.exports = {
       '3xl': '1780px',
       '4xl': '2160px', // only need to control product grid mode in ultra 4k device
     },
+    
     extend: {
       colors: {
         brand: 'rgb(var(--color-brand) / <alpha-value>)',

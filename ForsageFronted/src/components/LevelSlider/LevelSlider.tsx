@@ -2,6 +2,8 @@
 
 import React, { useState } from 'react';
 import LevelHeader from '@/components/levelheader/levelheader';
+import TransactionTable from '@/components/transaction/transaction-table'; 
+import NotifyBot from '@/components/notifybot/notifybot';
 
 const levels = [
   { level: 1, cost: 5, partners: 22737, cycles: 8946, revenue: 100340, Id: '1770552' },
@@ -93,6 +95,10 @@ const LevelSlider: React.FC = () => {
         >
           {currentLevel < 12 ? currentLevel + 1 : ''}
         </button>
+      </div>
+      <div className='my-9'>
+        <NotifyBot/>
+      <TransactionTable />
       </div>
     </>
   );

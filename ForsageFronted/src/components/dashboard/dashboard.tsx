@@ -18,21 +18,13 @@ const StatCard: React.FC<StatCardProps> = ({ title, value, increase }) => {
 
 const Dashboard: React.FC = () => {
   return (
-    <div className="flex flex-wrap gap-4 w-full max-w-screen-lg mx-auto text-center items-center ">
-      <div className="w-full sm:w-1/2 lg:w-1/4">
-        <StatCard title="Partners" value="16" increase="↑ 0" />
-      </div>
-      <div className="w-full sm:w-1/2 lg:w-1/4">
-        <StatCard title="Team" value="21" increase="↑ 0" />
-      </div>
-      <div className="w-full sm:w-1/2 lg:w-1/4">
-        <StatCard title="Ratio" value="209%" increase="↑ 0%" />
-      </div>
-      <div className="w-full sm:w-1/2 lg:w-1/4">
-        <StatCard title="Profits" value="3,891 BUSD\n0.2625 BNB" increase="↑ 0\n↑ 0" />
-      </div>
-    </div>
-  );
+    <div className="my-9 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full mx-auto text-center items-center">
+    <StatCard title="Partners" value="16" increase="↑ 0" />
+    <StatCard title="Team" value="21" increase="↑ 0" />
+    <StatCard title="Ratio" value="209%" increase="↑ 0%" />
+    <StatCard title="Profits" value="3,891 " increase="↑ 0\n↑ 0" />
+  </div>
+   );
 };
 
 export default Dashboard;

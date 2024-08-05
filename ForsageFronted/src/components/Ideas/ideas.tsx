@@ -35,7 +35,7 @@ const ideasData = [
     description: ''
   },
   {
-    title: 'Forage.io',
+    title: 'Ronx.io',
     rating: 1410,
     date: '12.08.2023',
     description: 'This Website And plataform is good for Poor people to eaen Money for There'
@@ -65,7 +65,7 @@ const ideasData = [
     description: ''
   },
   {
-    title: 'Foresage',
+    title: 'Ronx',
     rating: 305,
     date: '12.08.2023',
     description: 'RonX are best platform for online earning.'

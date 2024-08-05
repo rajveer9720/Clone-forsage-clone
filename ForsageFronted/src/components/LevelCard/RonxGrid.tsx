@@ -1,7 +1,6 @@
 // src/components/ForsageGrid.tsx
 'use client';  // Add this line to ensure the component is rendered on the client side
-
-import React from 'react';
+import NotifyBot from '@/components/notifybot/notifybot';
 
 interface LevelCardProps {
   level: number;
@@ -43,6 +42,7 @@ const LevelCard: React.FC<LevelCardProps> = ({ level, cost, partners, cycles }) 
           <span className="mr-2">🔄</span> {cycles}
         </div>
       </div>
+      
     </div>
   );
 };
@@ -72,8 +72,10 @@ const RonxGrid: React.FC = () => {
           {levelData.map((data) => (
             <LevelCard key={data.level} {...data} />
           ))}
+        
         </div>
       </div>
+      <NotifyBot/>
     </div>
   );
 };

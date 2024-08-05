@@ -16,7 +16,7 @@ export const defaultMenuItems = [
   {
     name: 'Home',
     icon: <HomeIcon />,
-    href: routes.profile,
+    href: routes.home,
   },
   {
     name: 'Team',
