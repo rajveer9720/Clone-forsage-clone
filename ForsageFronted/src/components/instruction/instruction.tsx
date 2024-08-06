@@ -2,7 +2,10 @@
 
 import React from 'react';
 import Image from 'next/image'; // Importing Image component from Next.js for better optimization
-import Ronxvideo from '../../assets/video/Ronx.mp4'
+import registrationPrev from '@/assets/images/program.jpeg';
+import registration from '@/assets/images/registration.png';
+import x3_preview from '@/assets/images/x3 previw.png';
+import x4_prpgram from '@/assets/images/x4_program.png';
 
 
 // Import the image directly
@@ -89,14 +92,14 @@ const Instruction: React.FC = () => {
           <div className="flex">
             <div className="flex mt-5 items-center sm:items-start flex-col">
 
-              <video controls
+              {/* <video controls
                 className="bg-black w-full mb-7.5 h-300px sm:h-180px"
                 src={Ronxvideo}
                 autoPlay
                 muted
                 loop  
                 title="RonX Marketing Video"
-              ></video>
+              ></video> */}
               <div className="mt-5 space-y-2.5">
                 <span>
                   <b className="inline text-white font-medium">
@@ -221,7 +224,7 @@ const Instruction: React.FC = () => {
           <span className="text-2xl text-white font-medium mb-5 sm:text-xl">Registration</span>
           <div className="flex">
             <div className="flex items-center sm:items-start flex-col">
-              <img src="https://busd.RonX.io/instructions/registrationPrev.png" className="flex-shrink-0 max-h-[350px] mb-2.5 item-center" alt="Registration Preview" />
+              <img src="https://busd.RonX.io/instructions/registrationPrev.png" className="flex-shrink-0 max-h-[350px] w-1/3 mb-2.5 item-cente" alt="Registration Preview" />
               <div className="flex-col space-y-2.5 sm:order-2">
                 <div>
                   <b className="inline text-white font-medium">Smart Contract.</b>
@@ -250,7 +253,7 @@ const Instruction: React.FC = () => {
           <span className="text-2xl text-white font-medium mb-5 sm:text-xl">Registration</span>
           <div className="flex">
             <div className="flex items-center sm:items-start flex-col">
-              <img src="https://busd.RonX.io/instructions/registrationPrev.png" className="flex-shrink-0 max-h-[350px] mb-2.5 item-center" alt="Registration Preview" />
+              <Image src={registrationPrev} className="flex-shrink-0 max-h-[350px] w-1/3 mb-2.5 item-center" alt="Registration Preview" />
               <div className="flex-col space-y-2.5 sm:order-2">
                 <div>
                   <b className="inline text-white font-medium">Smart Contract.</b>
@@ -280,7 +283,7 @@ const Instruction: React.FC = () => {
           <span className="text-2xl text-white font-medium mb-5 sm:text-xl">Registration</span>
           <div className="flex">
             <div className="flex items-center sm:items-start flex-col">
-              <img src="https://busd.RonX.io/instructions/registrationPrev.png" className="flex-shrink-0 max-h-[350px] mb-2.5 item-center" alt="Registration Preview" />
+              <Image src={registration} className="flex-shrink-0 max-h-[350px] w-1/3 mb-2.5 item-cente" alt="Registration Preview" />
               <div className="flex-col sm:order-2 space-y-2.5">
                 <div>
                   <b className="inline text-white font-medium">Registration in <span className="notranslate ml-1.5">RonX BUSD</span></b> is the activation of first levels in <span className="notranslate mx-1.5">RonX x3</span> and <span className="notranslate mx-1.5">x4</span> programs, which cost 5 <span className="notranslate mx-1.5">BUSD</span> each. In total, registration costs 10 <span className="notranslate mx-1.5">BUSD</span>. The first levels in x3 and x4 programs are always activated together and cannot be accessed separately. All the following levels can be purchased one by one, in ascending order.
@@ -303,7 +306,7 @@ const Instruction: React.FC = () => {
           </span>
           <div className="flex">
             <div className="flex items-center sm:items-start flex-col">
-              <img src="https://busd.RonX.io/instructions/registrationPrev.png" className="flex-shrink-0 max-h-[350px] mb-2.5 item-center" alt="Registration Preview" />
+              <Image src={x3_preview} className="flex-shrink-0 max-h-[350px] w-1/3 mb-2.5 item-cente" alt="Registration Preview" />
               <div className="flex-col sm:order-2 space-y-2.5">
                 <div>
                   <b className="inline text-white font-medium">Registration in <span className="notranslate ml-1.5">RonX BUSD</span></b> is the activation of first levels in <span className="notranslate mx-1.5">RonX x3</span> and <span className="notranslate mx-1.5">x4</span> programs, which cost 5 <span className="notranslate mx-1.5">BUSD</span> each. In total, registration costs 10 <span className="notranslate mx-1.5">BUSD</span>. The first levels in x3 and x4 programs are always activated together and cannot be accessed separately. All the following levels can be purchased one by one, in ascending order.
@@ -359,6 +362,7 @@ const Instruction: React.FC = () => {
 
         <div className="flex flex-col rounded bg-black-light text-base w-full p-7.5 sm:text-sm sm:p-5">
           <span className="text-2xl text-white font-medium mb-5 sm:text-xl">How RonX x4 works</span>
+          <Image src={x4_prpgram} className="flex-shrink-0 max-h-[350px] w-1/3 mb-2.5 item-cente" alt="Registration Preview" />
           <div className="flex">
             <div className="space-y-2.5">
               <div className="flex justify-evenly items-center space-x-5 mb-5 sm:space-y-2.5 sm:space-x-0 sm:flex-col">
@@ -435,7 +439,7 @@ const Instruction: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className='flex mt-5 items-center rounded-lg  bg-gray-100  p-5  dark:bg-light-dark'>
+      {/* <div className='flex mt-5 items-center rounded-lg  bg-gray-100  p-5  dark:bg-light-dark'>
 
 
         <div className="flex flex-col rounded bg-black-light text-base w-full p-7.5 sm:text-sm sm:p-5">
@@ -473,9 +477,9 @@ const Instruction: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className='flex mt-5 items-center rounded-lg  bg-gray-100  p-5  dark:bg-light-dark'>
+      {/* <div className='flex mt-5 items-center rounded-lg  bg-gray-100  p-5  dark:bg-light-dark'>
 
 
         <div className="flex flex-col rounded bg-black-light text-base w-full p-7.5 sm:text-sm sm:p-5">
@@ -597,7 +601,7 @@ const Instruction: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
 
       {/* <div className='flex mt-5 items-center rounded-lg  bg-gray-100  p-5  dark:bg-light-dark'>
@@ -643,7 +647,7 @@ const Instruction: React.FC = () => {
 
 
 
-      <div className='flex mt-5 items-center rounded-lg  bg-gray-100  p-5  dark:bg-light-dark'>
+      {/* <div className='flex mt-5 items-center rounded-lg  bg-gray-100  p-5  dark:bg-light-dark'>
 
 
         <div className="flex flex-col rounded bg-black-light text-base w-full p-7.5 sm:text-sm sm:p-5">
@@ -813,7 +817,7 @@ const Instruction: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
     </>
   );

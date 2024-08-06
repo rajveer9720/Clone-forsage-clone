@@ -39,11 +39,11 @@ export default function Calculator() {
   return (
     <div className="w-full p-6 text-white min-h-screen flex flex-col">
       <h1 className="text-center text-3xl font-bold bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text mb-4">
-        Forsage Participant
+        Ronx Participant
       </h1>
       <h3 className="text-3xl font-bold mb-4 text-center">Calculator</h3>
       <p className="w-5/6 mb-8 text-lg text-center m-auto">
-        Calculate your potential result from participating in FORSAGE by selecting levels to activate below. The results are calculated for 1 cycle of all selected levels. All calculations are for informational purposes only, and are not a public offer.
+        Calculate your potential result from participating in Ronx by selecting levels to activate below. The results are calculated for 1 cycle of all selected levels. All calculations are for informational purposes only, and are not a public offer.
       </p>
 
       <div className="flex space-x-4 mb-4 px-8">
@@ -58,16 +58,16 @@ export default function Calculator() {
         ))}
       </div>
 
-      <div className='flex flex-col lg:flex-row gap-12 p-4 lg:p-8 bg-gray-600 m-auto align-middle'>
-        <div className='text-2xl font-bold inline-block text-transparent bg-clip-text  ml-10'>
+      <div className='flex flex-col lg:flex-row gap-12 p-4 lg:p-8  bg-gray-600 m-auto align-middle'>
+        <div className='text-2xl font-bold inline-block ml-10'>
           {selectedStage.name}
         </div>
         <div className='flex flex-col lg:flex-row gap-12 p-4 lg:p-8'>
           <p>
-            {selectedStage.name === 'x3' ? 
-              'More advanced program, designed for team work. Results are achieved here through direct partners, as well as through spillovers from other participants.':'Basic matrix program, which is best for those who are self-reliant and prefer independent development.'}
+            {selectedStage.name === 'Ronx x3' ? 
+              'Basic matrix program, which is best for those who are self-reliant and prefer independent development.'
+              : 'More advanced program, designed for team work. Results are achieved here through direct partners, as well as through spillovers from other participants.'}
           </p>
-          
         </div>
       </div>
 
