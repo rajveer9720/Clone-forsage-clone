@@ -18,7 +18,7 @@ export default function SignUpForm() {
     console.log(e);
   }
   const handleRegisterBUSD = () => {
-    window.location.href = 'https://criptic-kzgz-git-main-somil-merugawars-projects.vercel.app/minimal'; // Replace with your desired URL
+    window.location.href = 'http://localhost:3000/authentication/reset-pin'; // Replace with your desired URL
   };
   return (
     <form noValidate onSubmit={handleSubmit} className="grid grid-cols-1 gap-4">

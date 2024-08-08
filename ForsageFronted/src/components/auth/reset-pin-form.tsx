@@ -2,6 +2,9 @@
 
 import Button from '@/components/ui/button/button';
 import PinCode from '@/components/ui/forms/pin-code';
+const handleRegisterBUSD = () => {
+  window.location.href = 'http://localhost:3000/minimal'; // Replace with your desired URL
+};
 
 export default function ResetPinForm() {
   return (
@@ -16,6 +19,7 @@ export default function ResetPinForm() {
       />
       <Button
         type="submit"
+        onClick={handleRegisterBUSD}
         className="mb-8 w-full max-w-[292px] rounded-lg !text-sm uppercase tracking-[0.04em] sm:w-2/3 sm:max-w-full lg:w-3/4 2xl:mb-10 2xl:w-5/6"
       >
         Log In

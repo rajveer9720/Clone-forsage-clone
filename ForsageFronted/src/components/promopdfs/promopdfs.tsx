@@ -19,11 +19,11 @@ const linksByCategory: LinksByCategory = {
   
   ],
   X4: [
-    { title: "RonX X4 presentation English pdf", url: "/pdf/x4_presentation_en.pdf" },
+    { title: "RonX X4 presentation English pdf", url: "/ronx_ppt_x3.pdf" },
    
   ],
   Presentations: [
-    { title: "RonX business presentation English pdf", url: "/pdf/presentation_en.pdf" },
+    { title: "RonX business presentation English pdf", url: "/RonX_ppt_x4.pdf" },
     
   ],
 };
