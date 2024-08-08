@@ -14,18 +14,17 @@ type LinksByCategory = {
 };
 
 const linksByCategory: LinksByCategory = {
-
   X3: [
-    { title: "RonX X3 presentation English pdf", url: "https://RonX.io/docs/x3_presentation_en.pdf" },
-    { title: "RonX X3 presentation Urdu pdf", url: "https://RonX.io/docs/x3_presentation_ur.pdf" },
+    { title: "RonX X3 presentation English pdf", url: "/FORSAGE_BUSD_EN.pdf" },
+  
   ],
   X4: [
-    { title: "RonX X4 presentation English pdf", url: "https://RonX.io/docs/x4_presentation_en.pdf" },
-    { title: "RonX X4 presentation Urdu pdf", url: "https://RonX.io/docs/x4_presentation_ur.pdf" },
+    { title: "RonX X4 presentation English pdf", url: "/pdf/x4_presentation_en.pdf" },
+   
   ],
   Presentations: [
-    { title: "RonX business presentation English pdf", url: "https://RonX.io/docs/presentation_en.pdf" },
-    { title: "RonX business presentation Urdu pdf", url: "https://RonX.io/docs/presentation_ur.pdf" },
+    { title: "RonX business presentation English pdf", url: "/pdf/presentation_en.pdf" },
+    
   ],
 };
 
@@ -38,7 +37,9 @@ export default function PromoPDF() {
     <div className="p-4">
       <header className="mb-4">
         <h1 className="text-2xl font-bold">Promo</h1>
-        <p className="text-white">Expand your RonX team and get more partners and results by using ready-made promotional materials</p>
+        <p className="text-white">
+          Expand your RonX team and get more partners and results by using ready-made promotional materials
+        </p>
       </header>
 
       <nav className="flex space-x-4 mb-4 border-b pb-2">
@@ -60,7 +61,12 @@ export default function PromoPDF() {
               <FontAwesomeIcon icon={faFilePdf} className="text-red-400 w-20 h-20" />
             </div>
             <p className="text-center mb-4">{link.title}</p>
-            <a href={link.url} target="_blank" rel="noopener noreferrer" className="block text-center text-white bg-blue-500 hover:bg-blue-700 px-4 py-2 rounded">
+            <a
+              href={link.url}  // Updated to use the URL from the linksByCategory
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block text-center text-white bg-blue-500 hover:bg-blue-700 px-4 py-2 rounded"
+            >
               Download PDF
             </a>
           </div>

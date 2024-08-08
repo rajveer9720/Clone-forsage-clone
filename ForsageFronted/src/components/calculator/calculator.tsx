@@ -76,7 +76,7 @@ export default function Calculator() {
           {[...Array(12)].map((_, index) => (
             <button
               key={index}
-              className={`px-4 py-2 sm:px-6 sm:py-3 md:px-8 md:py-4 rounded ${selectedSlots.includes(index + 1) ? 'bg-blue-500' : 'bg-gray-700'} text-white`}
+              className={`py-2 sm:px-6 sm:py-3 md:px-8 md:py-4 rounded ${selectedSlots.includes(index + 1) ? 'bg-blue-500' : 'bg-gray-700'} text-white`}
               onClick={() => handleSlotSelect(index + 1)}
               disabled={selectedSlots.includes(12) && index !== 11}
             >
