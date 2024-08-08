@@ -12,39 +12,103 @@ import { EyeSlashIcon } from '@/components/icons/eyeslash';
 
 export default function SignUpForm() {
   const [state, setState] = useState(false);
+  const [formData, setFormData] = useState({
+    firstName: '',
+    lastName: '',
+    email: '',
+    password: ''
+  });
+  const [errors, setErrors] = useState({
+    firstName: '',
+    lastName: '',
+    email: '',
+    password: ''
+  });
 
-  function handleSubmit(e: any) {
-    e.preventDefault();
-    console.log(e);
+  function validateField(name: string, value: string) {
+    const newErrors = { ...errors };
+
+    switch (name) {
+      case 'firstName':
+        newErrors.firstName = value ? '' : 'First Name is required';
+        break;
+      case 'lastName':
+        newErrors.lastName = value ? '' : 'Last Name is required';
+        break;
+      case 'email':
+        if (!value) newErrors.email = 'Email is required';
+        else if (!/\S+@\S+\.\S+/.test(value)) newErrors.email = 'Email is invalid';
+        else newErrors.email = '';
+        break;
+      case 'password':
+        newErrors.password = value ? '' : 'Password is required';
+        break;
+      default:
+        break;
+    }
+
+    setErrors(newErrors);
   }
+
+  function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+    validateField(name, value);
+  }
+
+  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    if (Object.values(errors).every(x => x === '')) {
+      console.log(formData);
+      // Handle successful form submission
+    }
+  }
+
   const handleRegisterBUSD = () => {
-    window.location.href = 'http://localhost:3000/authentication/reset-pin'; // Replace with your desired URL
+    window.location.href = 'https://criptic-kzgz-git-main-somil-merugawars-projects.vercel.app/authentication/reset-pin'; // Replace with your desired URL
   };
+
   return (
     <form noValidate onSubmit={handleSubmit} className="grid grid-cols-1 gap-4">
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-3">
         <Input
+          name="firstName"
           type="text"
           placeholder="First Name"
+          value={formData.firstName}
+          onChange={handleChange}
           inputClassName="focus:!ring-0 placeholder:text-[#6B7280]"
         />
+        {errors.firstName && <p className="text-red-500 text-xs">{errors.firstName}</p>}
         <Input
+          name="lastName"
           type="text"
           placeholder="Last Name"
+          value={formData.lastName}
+          onChange={handleChange}
           inputClassName="focus:!ring-0 placeholder:text-[#6B7280]"
         />
+        {errors.lastName && <p className="text-red-500 text-xs">{errors.lastName}</p>}
       </div>
       <Input
+        name="email"
         type="email"
         placeholder="Email"
+        value={formData.email}
+        onChange={handleChange}
         inputClassName="focus:!ring-0 placeholder:text-[#6B7280]"
       />
+      {errors.email && <p className="text-red-500 text-xs">{errors.email}</p>}
       <div className="relative">
         <Input
+          name="password"
           type={state ? 'text' : 'password'}
           placeholder="Password"
+          value={formData.password}
+          onChange={handleChange}
           inputClassName="focus:!ring-0 placeholder:text-[#6B7280]"
         />
+        {errors.password && <p className="text-red-500 text-xs">{errors.password}</p>}
         <span
           className="absolute bottom-3 right-4 cursor-pointer text-[#6B7280] rtl:left-4 rtl:right-auto sm:bottom-3.5"
           onClick={() => setState(!state)}
